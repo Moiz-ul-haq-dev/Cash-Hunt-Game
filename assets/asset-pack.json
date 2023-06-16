@@ -1,0 +1,595 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/6x15.png",
+                "type": "image",
+                "key": "6x15"
+            },
+            {
+                "url": "assets/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": [
+                    "assets/Background Music.mp3"
+                ],
+                "type": "audio",
+                "key": "Background Music"
+            },
+            {
+                "url": "assets/blur_bg.png",
+                "type": "image",
+                "key": "blur_bg"
+            },
+            {
+                "url": "assets/Box-1.png",
+                "type": "image",
+                "key": "Box-1"
+            },
+            {
+                "url": "assets/Cash_Hunt_Logo-removebg-preview.png",
+                "type": "image",
+                "key": "Cash_Hunt_Logo-removebg-preview"
+            },
+            {
+                "url": "assets/Comp 1_100.png",
+                "type": "image",
+                "key": "Comp 1_100"
+            },
+            {
+                "url": "assets/Comp 1_101.png",
+                "type": "image",
+                "key": "Comp 1_101"
+            },
+            {
+                "url": "assets/Comp 1_102.png",
+                "type": "image",
+                "key": "Comp 1_102"
+            },
+            {
+                "url": "assets/Comp 1_103.png",
+                "type": "image",
+                "key": "Comp 1_103"
+            },
+            {
+                "url": "assets/Comp 1_104.png",
+                "type": "image",
+                "key": "Comp 1_104"
+            },
+            {
+                "url": "assets/Comp 1_105.png",
+                "type": "image",
+                "key": "Comp 1_105"
+            },
+            {
+                "url": "assets/Comp 1_106.png",
+                "type": "image",
+                "key": "Comp 1_106"
+            },
+            {
+                "url": "assets/Comp 1_107.png",
+                "type": "image",
+                "key": "Comp 1_107"
+            },
+            {
+                "url": "assets/Comp 1_108.png",
+                "type": "image",
+                "key": "Comp 1_108"
+            },
+            {
+                "url": "assets/Comp 1_109.png",
+                "type": "image",
+                "key": "Comp 1_109"
+            },
+            {
+                "url": "assets/Comp 1_110.png",
+                "type": "image",
+                "key": "Comp 1_110"
+            },
+            {
+                "url": "assets/Comp 1_111.png",
+                "type": "image",
+                "key": "Comp 1_111"
+            },
+            {
+                "url": "assets/Comp 1_112.png",
+                "type": "image",
+                "key": "Comp 1_112"
+            },
+            {
+                "url": "assets/Comp 1_113.png",
+                "type": "image",
+                "key": "Comp 1_113"
+            },
+            {
+                "url": "assets/Comp 1_114.png",
+                "type": "image",
+                "key": "Comp 1_114"
+            },
+            {
+                "url": "assets/Comp 1_115.png",
+                "type": "image",
+                "key": "Comp 1_115"
+            },
+            {
+                "url": "assets/Comp 1_116.png",
+                "type": "image",
+                "key": "Comp 1_116"
+            },
+            {
+                "url": "assets/Comp 1_117.png",
+                "type": "image",
+                "key": "Comp 1_117"
+            },
+            {
+                "url": "assets/Comp 1_118.png",
+                "type": "image",
+                "key": "Comp 1_118"
+            },
+            {
+                "url": "assets/Comp 1_119.png",
+                "type": "image",
+                "key": "Comp 1_119"
+            },
+            {
+                "url": "assets/Comp 1_120.png",
+                "type": "image",
+                "key": "Comp 1_120"
+            },
+            {
+                "url": "assets/Comp 1_121.png",
+                "type": "image",
+                "key": "Comp 1_121"
+            },
+            {
+                "url": "assets/Comp 1_122.png",
+                "type": "image",
+                "key": "Comp 1_122"
+            },
+            {
+                "url": "assets/Comp 1_123.png",
+                "type": "image",
+                "key": "Comp 1_123"
+            },
+            {
+                "url": "assets/Comp 1_125.png",
+                "type": "image",
+                "key": "Comp 1_125"
+            },
+            {
+                "url": "assets/Comp 1_126.png",
+                "type": "image",
+                "key": "Comp 1_126"
+            },
+            {
+                "url": "assets/Comp 1_127.png",
+                "type": "image",
+                "key": "Comp 1_127"
+            },
+            {
+                "url": "assets/Comp 1_128.png",
+                "type": "image",
+                "key": "Comp 1_128"
+            },
+            {
+                "url": "assets/Comp 1_129.png",
+                "type": "image",
+                "key": "Comp 1_129"
+            },
+            {
+                "url": "assets/Comp 1_130.png",
+                "type": "image",
+                "key": "Comp 1_130"
+            },
+            {
+                "url": "assets/Comp 1_131.png",
+                "type": "image",
+                "key": "Comp 1_131"
+            },
+            {
+                "url": "assets/Comp 1_132.png",
+                "type": "image",
+                "key": "Comp 1_132"
+            },
+            {
+                "url": "assets/Comp 1_133.png",
+                "type": "image",
+                "key": "Comp 1_133"
+            },
+            {
+                "url": "assets/Comp 1_134.png",
+                "type": "image",
+                "key": "Comp 1_134"
+            },
+            {
+                "url": "assets/Comp 1_135.png",
+                "type": "image",
+                "key": "Comp 1_135"
+            },
+            {
+                "url": "assets/Comp 1_136.png",
+                "type": "image",
+                "key": "Comp 1_136"
+            },
+            {
+                "url": "assets/Comp 1_137.png",
+                "type": "image",
+                "key": "Comp 1_137"
+            },
+            {
+                "url": "assets/Comp 1_138.png",
+                "type": "image",
+                "key": "Comp 1_138"
+            },
+            {
+                "url": "assets/Comp 1_139.png",
+                "type": "image",
+                "key": "Comp 1_139"
+            },
+            {
+                "url": "assets/Comp 1_140.png",
+                "type": "image",
+                "key": "Comp 1_140"
+            },
+            {
+                "url": "assets/Comp 1_141.png",
+                "type": "image",
+                "key": "Comp 1_141"
+            },
+            {
+                "url": "assets/Comp 1_142.png",
+                "type": "image",
+                "key": "Comp 1_142"
+            },
+            {
+                "url": "assets/Comp 1_143.png",
+                "type": "image",
+                "key": "Comp 1_143"
+            },
+            {
+                "url": "assets/Comp 1_144.png",
+                "type": "image",
+                "key": "Comp 1_144"
+            },
+            {
+                "url": "assets/Comp 1_145.png",
+                "type": "image",
+                "key": "Comp 1_145"
+            },
+            {
+                "url": "assets/Comp 1_146.png",
+                "type": "image",
+                "key": "Comp 1_146"
+            },
+            {
+                "url": "assets/Comp 1_147.png",
+                "type": "image",
+                "key": "Comp 1_147"
+            },
+            {
+                "url": "assets/Comp 1_148.png",
+                "type": "image",
+                "key": "Comp 1_148"
+            },
+            {
+                "url": "assets/Comp 100.png",
+                "type": "image",
+                "key": "Comp 100"
+            },
+            {
+                "url": "assets/Comp 101.png",
+                "type": "image",
+                "key": "Comp 101"
+            },
+            {
+                "url": "assets/Comp 102.png",
+                "type": "image",
+                "key": "Comp 102"
+            },
+            {
+                "url": "assets/Comp 103.png",
+                "type": "image",
+                "key": "Comp 103"
+            },
+            {
+                "url": "assets/Comp 104.png",
+                "type": "image",
+                "key": "Comp 104"
+            },
+            {
+                "url": "assets/Comp 105.png",
+                "type": "image",
+                "key": "Comp 105"
+            },
+            {
+                "url": "assets/Comp 106.png",
+                "type": "image",
+                "key": "Comp 106"
+            },
+            {
+                "url": "assets/Comp 107.png",
+                "type": "image",
+                "key": "Comp 107"
+            },
+            {
+                "url": "assets/Comp 108.png",
+                "type": "image",
+                "key": "Comp 108"
+            },
+            {
+                "url": "assets/Comp 109.png",
+                "type": "image",
+                "key": "Comp 109"
+            },
+            {
+                "url": "assets/Comp 110.png",
+                "type": "image",
+                "key": "Comp 110"
+            },
+            {
+                "url": "assets/Comp 111.png",
+                "type": "image",
+                "key": "Comp 111"
+            },
+            {
+                "url": "assets/Comp 112.png",
+                "type": "image",
+                "key": "Comp 112"
+            },
+            {
+                "url": "assets/Comp 113.png",
+                "type": "image",
+                "key": "Comp 113"
+            },
+            {
+                "url": "assets/Comp 114.png",
+                "type": "image",
+                "key": "Comp 114"
+            },
+            {
+                "url": "assets/Comp 115.png",
+                "type": "image",
+                "key": "Comp 115"
+            },
+            {
+                "url": "assets/Comp 116.png",
+                "type": "image",
+                "key": "Comp 116"
+            },
+            {
+                "url": "assets/Comp 117.png",
+                "type": "image",
+                "key": "Comp 117"
+            },
+            {
+                "url": "assets/Comp 118.png",
+                "type": "image",
+                "key": "Comp 118"
+            },
+            {
+                "url": "assets/Comp 119.png",
+                "type": "image",
+                "key": "Comp 119"
+            },
+            {
+                "url": "assets/Comp 120.png",
+                "type": "image",
+                "key": "Comp 120"
+            },
+            {
+                "url": "assets/Comp 121.png",
+                "type": "image",
+                "key": "Comp 121"
+            },
+            {
+                "url": "assets/Comp 122.png",
+                "type": "image",
+                "key": "Comp 122"
+            },
+            {
+                "url": "assets/Comp 123.png",
+                "type": "image",
+                "key": "Comp 123"
+            },
+            {
+                "url": "assets/Comp 125.png",
+                "type": "image",
+                "key": "Comp 125"
+            },
+            {
+                "url": "assets/Comp 126.png",
+                "type": "image",
+                "key": "Comp 126"
+            },
+            {
+                "url": "assets/Comp 127.png",
+                "type": "image",
+                "key": "Comp 127"
+            },
+            {
+                "url": "assets/Comp 128.png",
+                "type": "image",
+                "key": "Comp 128"
+            },
+            {
+                "url": "assets/Comp 129.png",
+                "type": "image",
+                "key": "Comp 129"
+            },
+            {
+                "url": "assets/Comp 130.png",
+                "type": "image",
+                "key": "Comp 130"
+            },
+            {
+                "url": "assets/Comp 131.png",
+                "type": "image",
+                "key": "Comp 131"
+            },
+            {
+                "url": "assets/Comp 132.png",
+                "type": "image",
+                "key": "Comp 132"
+            },
+            {
+                "url": "assets/Comp 133.png",
+                "type": "image",
+                "key": "Comp 133"
+            },
+            {
+                "url": "assets/Comp 134.png",
+                "type": "image",
+                "key": "Comp 134"
+            },
+            {
+                "url": "assets/Comp 135.png",
+                "type": "image",
+                "key": "Comp 135"
+            },
+            {
+                "url": "assets/Comp 136.png",
+                "type": "image",
+                "key": "Comp 136"
+            },
+            {
+                "url": "assets/Comp 137.png",
+                "type": "image",
+                "key": "Comp 137"
+            },
+            {
+                "url": "assets/Comp 138.png",
+                "type": "image",
+                "key": "Comp 138"
+            },
+            {
+                "url": "assets/Comp 139.png",
+                "type": "image",
+                "key": "Comp 139"
+            },
+            {
+                "url": "assets/Comp 140.png",
+                "type": "image",
+                "key": "Comp 140"
+            },
+            {
+                "url": "assets/Comp 141.png",
+                "type": "image",
+                "key": "Comp 141"
+            },
+            {
+                "url": "assets/Comp 142.png",
+                "type": "image",
+                "key": "Comp 142"
+            },
+            {
+                "url": "assets/Comp 143.png",
+                "type": "image",
+                "key": "Comp 143"
+            },
+            {
+                "url": "assets/Comp 144.png",
+                "type": "image",
+                "key": "Comp 144"
+            },
+            {
+                "url": "assets/Comp 145.png",
+                "type": "image",
+                "key": "Comp 145"
+            },
+            {
+                "url": "assets/Comp 146.png",
+                "type": "image",
+                "key": "Comp 146"
+            },
+            {
+                "url": "assets/Comp 147.png",
+                "type": "image",
+                "key": "Comp 147"
+            },
+            {
+                "url": "assets/Comp 148.png",
+                "type": "image",
+                "key": "Comp 148"
+            },
+            {
+                "url": "assets/Comp 247.png",
+                "type": "image",
+                "key": "Comp 247"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "assets/exit button.png",
+                "type": "image",
+                "key": "exit button"
+            },
+            {
+                "url": "assets/info button.png",
+                "type": "image",
+                "key": "info button"
+            },
+            {
+                "url": "assets/Modified 6x15.png",
+                "type": "image",
+                "key": "Modified 6x15"
+            },
+            {
+                "url": "assets/setings button.png",
+                "type": "image",
+                "key": "setings button"
+            },
+            {
+                "url": "assets/slot machine.png",
+                "type": "image",
+                "key": "slot machine"
+            },
+            {
+                "url": "assets/sound button.png",
+                "type": "image",
+                "key": "sound button"
+            },
+            {
+                "url": "assets/sound close btn.png",
+                "type": "image",
+                "key": "sound close btn"
+            },
+            {
+                "url": "assets/Timer.png",
+                "type": "image",
+                "key": "Timer"
+            },
+            {
+                "url": "assets/timer button.png",
+                "type": "image",
+                "key": "timer button"
+            },
+            {
+                "url": "assets/UI - Before Game Start.png",
+                "type": "image",
+                "key": "UI - Before Game Start"
+            },
+            {
+                "url": "assets/UI start.png",
+                "type": "image",
+                "key": "UI start"
+            },
+            {
+                "url": "assets/You_win.png",
+                "type": "image",
+                "key": "You_win"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

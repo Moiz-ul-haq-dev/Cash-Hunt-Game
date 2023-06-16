@@ -1,0 +1,64 @@
+{
+    "id": "04331fb6-ed91-4d74-b6e9-4bfe0fcfb457",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadMethodName": "editorPreload",
+        "preloadPackFiles": [
+            "starter-template-basic-typescript/assets/asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Preload",
+        "borderWidth": 1280,
+        "borderHeight": 680
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "490139b8-0680-4530-b031-ccb1111d7146",
+            "label": "rectangle_1",
+            "components": [],
+            "x": 640,
+            "y": 340,
+            "scaleX": 10.582980741467217,
+            "scaleY": 5.910724691963938,
+            "isFilled": true,
+            "fillColor": "#043201",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Text",
+            "id": "2ce42443-5227-4c9b-b498-e81f9a21cde3",
+            "label": "progress",
+            "components": [
+                "PreloadText"
+            ],
+            "x": 640,
+            "y": 474,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "0%",
+            "fontSize": "30px"
+        },
+        {
+            "type": "Image",
+            "id": "45f32548-45cb-4377-9d93-408f42fd1782",
+            "label": "cash_Hunt_Logo",
+            "components": [],
+            "texture": {
+                "key": "Cash Hunt Logo"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.2,
+            "scaleY": 0.2
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

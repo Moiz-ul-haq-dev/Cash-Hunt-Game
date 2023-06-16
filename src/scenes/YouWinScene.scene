@@ -1,0 +1,56 @@
+{
+    "id": "6bdc6418-0322-488c-8110-04f4c8e8bb29",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "YouWinScene",
+        "borderWidth": 1280,
+        "borderHeight": 680
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "799170c2-1f47-4090-ac91-5491b9b75b72",
+            "label": "blur_bg",
+            "components": [],
+            "texture": {
+                "key": "blur_bg"
+            },
+            "x": 640,
+            "y": 348,
+            "scaleX": 0.6653087165673921,
+            "scaleY": 0.6347752977463733
+        },
+        {
+            "type": "Image",
+            "id": "d7e820f4-6b00-4170-95dd-572aa3784ddb",
+            "label": "you_win",
+            "components": [],
+            "texture": {
+                "key": "You_win"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "30a019e6-c3f8-4bb7-aa32-cf68541ff304",
+            "label": "interactiveImagesYouWinScene",
+            "objectIds": [
+                "d7e820f4-6b00-4170-95dd-572aa3784ddb",
+                "799170c2-1f47-4090-ac91-5491b9b75b72"
+            ]
+        }
+    ]
+}

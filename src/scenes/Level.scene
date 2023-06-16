@@ -1,0 +1,250 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1280,
+        "borderHeight": 680
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "fe7814a7-bc3c-4f73-b6a5-47bb51b52456",
+            "label": "background",
+            "components": [],
+            "texture": {
+                "key": "background"
+            },
+            "x": 660,
+            "y": 360,
+            "scaleX": 0.7268502635277192,
+            "scaleY": 0.739203605768162
+        },
+        {
+            "type": "Image",
+            "id": "fc02965f-6f0e-4246-b9f6-c06305ac6517",
+            "label": "cash_Hunt_Logo_removebg_preview",
+            "components": [],
+            "texture": {
+                "key": "Cash_Hunt_Logo-removebg-preview"
+            },
+            "x": 640,
+            "y": 80,
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "type": "Image",
+            "id": "b9dcc8bb-4694-4135-8e34-73fc44b6dc9b",
+            "label": "setings_button",
+            "components": [],
+            "texture": {
+                "key": "setings button"
+            },
+            "x": 1245,
+            "y": 33,
+            "scaleX": 0.6,
+            "scaleY": 0.6
+        },
+        {
+            "type": "Image",
+            "id": "e74092d6-2d42-4ae4-9962-9f310e72db17",
+            "label": "exit_button",
+            "components": [],
+            "texture": {
+                "key": "exit button"
+            },
+            "x": 41,
+            "y": 33,
+            "scaleX": 0.6,
+            "scaleY": 0.6
+        },
+        {
+            "type": "Image",
+            "id": "f31baaa2-b43e-45f3-a3ce-5ab8be82071b",
+            "label": "info_button",
+            "components": [],
+            "texture": {
+                "key": "info button"
+            },
+            "x": 1191,
+            "y": 33,
+            "scaleX": 0.6,
+            "scaleY": 0.6,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b05ba5ab-a976-44ad-a5f4-6aa3ae23481e",
+            "label": "sound_button",
+            "components": [],
+            "texture": {
+                "key": "sound button"
+            },
+            "x": 1104,
+            "y": 33,
+            "scaleX": 0.6,
+            "scaleY": 0.6,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d7382819-56f0-4b16-b7a1-9f14c2922290",
+            "label": "sound_close_btn",
+            "components": [],
+            "texture": {
+                "key": "sound close btn"
+            },
+            "x": 1104,
+            "y": 33,
+            "scaleX": 0.6,
+            "scaleY": 0.6,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "474697ec-e000-4956-a0d6-f6445b0acc1e",
+            "label": "timer_button",
+            "components": [],
+            "texture": {
+                "key": "timer button"
+            },
+            "x": 1148,
+            "y": 33,
+            "scaleX": 0.6,
+            "scaleY": 0.6,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "742717c7-13e3-4be3-8a11-5186e43e5152",
+            "label": "modified_6x15",
+            "components": [],
+            "texture": {
+                "key": "Modified 6x15"
+            },
+            "x": 640,
+            "y": 345.2049014243382,
+            "scaleX": 0.665291941670825,
+            "scaleY": 0.6199909232882627
+        },
+        {
+            "type": "Image",
+            "id": "a0dd172d-b092-4d37-89e8-33e69ad456a9",
+            "label": "Box-1",
+            "components": [],
+            "texture": {
+                "key": "Box-1"
+            },
+            "x": 235,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "3632ccfb-3e49-4870-b0bb-fa4ac08228b2",
+            "label": "Box-2",
+            "components": [],
+            "texture": {
+                "key": "Box-1"
+            },
+            "x": 235,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "105717a9-6b9e-42b9-b276-dc03cad72eba",
+            "label": "Box-3",
+            "components": [],
+            "texture": {
+                "key": "Box-1"
+            },
+            "x": 235,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "65e98b6a-825b-40f1-b612-45b09b76a269",
+            "label": "Box-4",
+            "components": [],
+            "texture": {
+                "key": "Box-1"
+            },
+            "x": 235,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "fdc26bbd-7a7c-4b1c-9b56-365056d1cbf9",
+            "label": "Box-5",
+            "components": [],
+            "texture": {
+                "key": "Box-1"
+            },
+            "x": 235,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "467886df-3013-458b-b3b0-ca3dccd195e7",
+            "label": "Box-6",
+            "components": [],
+            "texture": {
+                "key": "Box-1"
+            },
+            "x": 235,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "2b9d5b24-0ee2-4c0f-b2b0-a367aafa6011",
+            "label": "interactiveImages",
+            "objectIds": [
+                "e74092d6-2d42-4ae4-9962-9f310e72db17",
+                "b9dcc8bb-4694-4135-8e34-73fc44b6dc9b",
+                "f31baaa2-b43e-45f3-a3ce-5ab8be82071b",
+                "b05ba5ab-a976-44ad-a5f4-6aa3ae23481e",
+                "474697ec-e000-4956-a0d6-f6445b0acc1e",
+                "d7382819-56f0-4b16-b7a1-9f14c2922290"
+            ]
+        },
+        {
+            "id": "48a79133-bbc8-4d7b-81a6-9cb67e1906f8",
+            "label": "settings-options",
+            "objectIds": [
+                "f31baaa2-b43e-45f3-a3ce-5ab8be82071b",
+                "474697ec-e000-4956-a0d6-f6445b0acc1e",
+                "b05ba5ab-a976-44ad-a5f4-6aa3ae23481e",
+                "d7382819-56f0-4b16-b7a1-9f14c2922290"
+            ]
+        },
+        {
+            "id": "2fe8bda2-0024-4777-afe4-0462bc2740e2",
+            "label": "sound-options",
+            "objectIds": [
+                "d7382819-56f0-4b16-b7a1-9f14c2922290"
+            ]
+        }
+    ]
+}
