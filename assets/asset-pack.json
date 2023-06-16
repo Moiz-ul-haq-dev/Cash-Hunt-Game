@@ -7,6 +7,11 @@
                 "key": "6x15"
             },
             {
+                "url": "assets/amount.png",
+                "type": "image",
+                "key": "amount"
+            },
+            {
                 "url": "assets/background.png",
                 "type": "image",
                 "key": "background"
@@ -22,11 +27,6 @@
                 "url": "assets/blur_bg.png",
                 "type": "image",
                 "key": "blur_bg"
-            },
-            {
-                "url": "assets/Box-1.png",
-                "type": "image",
-                "key": "Box-1"
             },
             {
                 "url": "assets/Cash_Hunt_Logo-removebg-preview.png",
@@ -514,6 +514,241 @@
                 "key": "Comp 148"
             },
             {
+                "url": "assets/Comp 200.png",
+                "type": "image",
+                "key": "Comp 200"
+            },
+            {
+                "url": "assets/Comp 201.png",
+                "type": "image",
+                "key": "Comp 201"
+            },
+            {
+                "url": "assets/Comp 202.png",
+                "type": "image",
+                "key": "Comp 202"
+            },
+            {
+                "url": "assets/Comp 203.png",
+                "type": "image",
+                "key": "Comp 203"
+            },
+            {
+                "url": "assets/Comp 204.png",
+                "type": "image",
+                "key": "Comp 204"
+            },
+            {
+                "url": "assets/Comp 205.png",
+                "type": "image",
+                "key": "Comp 205"
+            },
+            {
+                "url": "assets/Comp 206.png",
+                "type": "image",
+                "key": "Comp 206"
+            },
+            {
+                "url": "assets/Comp 207.png",
+                "type": "image",
+                "key": "Comp 207"
+            },
+            {
+                "url": "assets/Comp 208.png",
+                "type": "image",
+                "key": "Comp 208"
+            },
+            {
+                "url": "assets/Comp 209.png",
+                "type": "image",
+                "key": "Comp 209"
+            },
+            {
+                "url": "assets/Comp 210.png",
+                "type": "image",
+                "key": "Comp 210"
+            },
+            {
+                "url": "assets/Comp 211.png",
+                "type": "image",
+                "key": "Comp 211"
+            },
+            {
+                "url": "assets/Comp 212.png",
+                "type": "image",
+                "key": "Comp 212"
+            },
+            {
+                "url": "assets/Comp 213.png",
+                "type": "image",
+                "key": "Comp 213"
+            },
+            {
+                "url": "assets/Comp 214.png",
+                "type": "image",
+                "key": "Comp 214"
+            },
+            {
+                "url": "assets/Comp 215.png",
+                "type": "image",
+                "key": "Comp 215"
+            },
+            {
+                "url": "assets/Comp 216.png",
+                "type": "image",
+                "key": "Comp 216"
+            },
+            {
+                "url": "assets/Comp 217.png",
+                "type": "image",
+                "key": "Comp 217"
+            },
+            {
+                "url": "assets/Comp 218.png",
+                "type": "image",
+                "key": "Comp 218"
+            },
+            {
+                "url": "assets/Comp 219.png",
+                "type": "image",
+                "key": "Comp 219"
+            },
+            {
+                "url": "assets/Comp 220.png",
+                "type": "image",
+                "key": "Comp 220"
+            },
+            {
+                "url": "assets/Comp 221.png",
+                "type": "image",
+                "key": "Comp 221"
+            },
+            {
+                "url": "assets/Comp 222.png",
+                "type": "image",
+                "key": "Comp 222"
+            },
+            {
+                "url": "assets/Comp 223.png",
+                "type": "image",
+                "key": "Comp 223"
+            },
+            {
+                "url": "assets/Comp 224.png",
+                "type": "image",
+                "key": "Comp 224"
+            },
+            {
+                "url": "assets/Comp 225.png",
+                "type": "image",
+                "key": "Comp 225"
+            },
+            {
+                "url": "assets/Comp 226.png",
+                "type": "image",
+                "key": "Comp 226"
+            },
+            {
+                "url": "assets/Comp 227.png",
+                "type": "image",
+                "key": "Comp 227"
+            },
+            {
+                "url": "assets/Comp 228.png",
+                "type": "image",
+                "key": "Comp 228"
+            },
+            {
+                "url": "assets/Comp 229.png",
+                "type": "image",
+                "key": "Comp 229"
+            },
+            {
+                "url": "assets/Comp 230.png",
+                "type": "image",
+                "key": "Comp 230"
+            },
+            {
+                "url": "assets/Comp 231.png",
+                "type": "image",
+                "key": "Comp 231"
+            },
+            {
+                "url": "assets/Comp 232.png",
+                "type": "image",
+                "key": "Comp 232"
+            },
+            {
+                "url": "assets/Comp 233.png",
+                "type": "image",
+                "key": "Comp 233"
+            },
+            {
+                "url": "assets/Comp 234.png",
+                "type": "image",
+                "key": "Comp 234"
+            },
+            {
+                "url": "assets/Comp 235.png",
+                "type": "image",
+                "key": "Comp 235"
+            },
+            {
+                "url": "assets/Comp 236.png",
+                "type": "image",
+                "key": "Comp 236"
+            },
+            {
+                "url": "assets/Comp 237.png",
+                "type": "image",
+                "key": "Comp 237"
+            },
+            {
+                "url": "assets/Comp 238.png",
+                "type": "image",
+                "key": "Comp 238"
+            },
+            {
+                "url": "assets/Comp 239.png",
+                "type": "image",
+                "key": "Comp 239"
+            },
+            {
+                "url": "assets/Comp 240.png",
+                "type": "image",
+                "key": "Comp 240"
+            },
+            {
+                "url": "assets/Comp 241.png",
+                "type": "image",
+                "key": "Comp 241"
+            },
+            {
+                "url": "assets/Comp 242.png",
+                "type": "image",
+                "key": "Comp 242"
+            },
+            {
+                "url": "assets/Comp 243.png",
+                "type": "image",
+                "key": "Comp 243"
+            },
+            {
+                "url": "assets/Comp 244.png",
+                "type": "image",
+                "key": "Comp 244"
+            },
+            {
+                "url": "assets/Comp 245.png",
+                "type": "image",
+                "key": "Comp 245"
+            },
+            {
+                "url": "assets/Comp 246.png",
+                "type": "image",
+                "key": "Comp 246"
+            },
+            {
                 "url": "assets/Comp 247.png",
                 "type": "image",
                 "key": "Comp 247"
@@ -539,6 +774,11 @@
                 "key": "Modified 6x15"
             },
             {
+                "url": "assets/play_btn.png",
+                "type": "image",
+                "key": "play_btn"
+            },
+            {
                 "url": "assets/setings button.png",
                 "type": "image",
                 "key": "setings button"
@@ -547,6 +787,11 @@
                 "url": "assets/slot machine.png",
                 "type": "image",
                 "key": "slot machine"
+            },
+            {
+                "url": "assets/slot_setting.png",
+                "type": "image",
+                "key": "slot_setting"
             },
             {
                 "url": "assets/sound button.png",

@@ -134,11 +134,12 @@
             "type": "Image",
             "id": "a0dd172d-b092-4d37-89e8-33e69ad456a9",
             "label": "Box-1",
+            "useGameObjectName": true,
             "components": [],
             "texture": {
-                "key": "Box-1"
+                "key": "Comp 201"
             },
-            "x": 235,
+            "x": 227,
             "y": 197,
             "scaleX": 0.125,
             "scaleY": 0.125
@@ -147,11 +148,12 @@
             "type": "Image",
             "id": "3632ccfb-3e49-4870-b0bb-fa4ac08228b2",
             "label": "Box-2",
+            "useGameObjectName": true,
             "components": [],
             "texture": {
-                "key": "Box-1"
+                "key": "Comp 201"
             },
-            "x": 235,
+            "x": 227,
             "y": 268,
             "scaleX": 0.125,
             "scaleY": 0.125
@@ -160,11 +162,12 @@
             "type": "Image",
             "id": "105717a9-6b9e-42b9-b276-dc03cad72eba",
             "label": "Box-3",
+            "useGameObjectName": true,
             "components": [],
             "texture": {
-                "key": "Box-1"
+                "key": "Comp 201"
             },
-            "x": 235,
+            "x": 227,
             "y": 339,
             "scaleX": 0.125,
             "scaleY": 0.125
@@ -173,11 +176,12 @@
             "type": "Image",
             "id": "65e98b6a-825b-40f1-b612-45b09b76a269",
             "label": "Box-4",
+            "useGameObjectName": true,
             "components": [],
             "texture": {
-                "key": "Box-1"
+                "key": "Comp 201"
             },
-            "x": 235,
+            "x": 227,
             "y": 415,
             "scaleX": 0.125,
             "scaleY": 0.125
@@ -186,11 +190,12 @@
             "type": "Image",
             "id": "fdc26bbd-7a7c-4b1c-9b56-365056d1cbf9",
             "label": "Box-5",
+            "useGameObjectName": true,
             "components": [],
             "texture": {
-                "key": "Box-1"
+                "key": "Comp 201"
             },
-            "x": 235,
+            "x": 227,
             "y": 486,
             "scaleX": 0.125,
             "scaleY": 0.125
@@ -199,11 +204,1227 @@
             "type": "Image",
             "id": "467886df-3013-458b-b3b0-ca3dccd195e7",
             "label": "Box-6",
+            "useGameObjectName": true,
             "components": [],
             "texture": {
-                "key": "Box-1"
+                "key": "Comp 201"
             },
-            "x": 235,
+            "x": 227,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "29569f07-a468-43f3-9bd7-e7a90971ff81",
+            "label": "Box-12",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 286,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "52c07bd6-dd6d-4dc7-ad09-3c4a9796d983",
+            "label": "Box-11",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 286,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "e8bf7d02-26fe-4674-8dba-13d6a7bb9328",
+            "label": "Box-10",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 286,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "fb5abe2a-3fff-4af2-a752-3e14c0c09e91",
+            "label": "Box-9",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 286,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "da7b7234-218e-44da-a69c-680c0d1623b0",
+            "label": "Box-8",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 286,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "167730e5-c878-4344-b6c8-c2c43f5b4353",
+            "label": "Box-7",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 286,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "adacb874-0152-463a-8cd9-599c1e66bf64",
+            "label": "Box-13",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 345,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "aa26e41d-d389-4893-a545-1118b5fe3f66",
+            "label": "Box-14",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 345,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "3b1ecc3c-25a7-4b8b-8081-b40f2241bf6a",
+            "label": "Box-15",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 345,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "7b321311-9d00-49aa-8c45-a5d4fcf46a56",
+            "label": "Box-16",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 345,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "3d01a50f-24d3-4a2f-81a0-bcfeab9c8d16",
+            "label": "Box-17",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 345,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "eeb5ba7a-ab3f-49c9-9f08-3d0056f7b09c",
+            "label": "Box-18",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 345,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "797969e1-62d3-4cf7-b234-5210ab213ad0",
+            "label": "play_btn",
+            "components": [],
+            "texture": {
+                "key": "play_btn"
+            },
+            "x": 640,
+            "y": 649,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "ebbd5f92-6c8b-4352-bf40-a0d251790323",
+            "label": "amount",
+            "components": [],
+            "texture": {
+                "key": "amount"
+            },
+            "x": 770,
+            "y": 649.5,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "e71b2545-0943-443d-8846-a98d074e1a27",
+            "label": "slot_setting",
+            "components": [],
+            "texture": {
+                "key": "slot_setting"
+            },
+            "x": 515,
+            "y": 651,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "d1c60307-9f32-4f70-a72a-406285d163de",
+            "label": "Box-19",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 404,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "1d2a7bd2-496b-41e3-8f0d-07a08fe27ad6",
+            "label": "Box-24",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 404,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "6411885f-2969-4fc6-8dae-45b119134157",
+            "label": "Box-23",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 404,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "738851b6-b2f3-4476-b5fd-81de0fb610e0",
+            "label": "Box-22",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 404,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "65db0b18-3a3b-4fb8-9604-91a0d0f8245d",
+            "label": "Box-21",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 404,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "dd658e7d-581f-470b-bb5f-39febdd2d003",
+            "label": "Box-20",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 404,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "2eef0d0b-9510-4cda-96d2-b855d28c0f87",
+            "label": "Box-25",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 463,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "b3cf1657-398c-4999-bcd4-ff11263d8a5e",
+            "label": "Box-26",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 463,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "52613833-8fb1-4a00-8862-ca513649b26e",
+            "label": "Box-27",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 463,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "20e3799e-4e9a-4f68-8bb8-bad372042b92",
+            "label": "Box-28",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 463,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "7c8a0dec-d458-470f-aa00-6f093df6d406",
+            "label": "Box-29",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 463,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "7421ce67-1e43-4696-9f76-48209d71a3ff",
+            "label": "Box-30",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 463,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "2e9a8689-a246-45be-aa63-5bd3577645e2",
+            "label": "Box-31",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 522,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "86968052-0463-4284-b545-2e09b9c8f964",
+            "label": "Box-42",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 581,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "4e80b90a-cc56-4046-a336-639fabdb3120",
+            "label": "Box-41",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 581,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "86f755aa-ac45-4e29-bc64-b0b5bb6d919e",
+            "label": "Box-40",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 581,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "a56ef290-20ab-4a94-afa8-b7e615c5c37d",
+            "label": "Box-39",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 581,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "558f9390-3288-462e-8c96-e81d77c74b51",
+            "label": "Box-38",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 581,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "fc44db50-676b-48cc-abf2-22757408f16e",
+            "label": "Box-37",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 581,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "d7ab84c5-96cb-4ae4-99f5-44292021d16f",
+            "label": "Box-32",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 522,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "26a9763d-5d0a-44b9-80bb-8bdc2d8db9b1",
+            "label": "Box-33",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 522,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "bda4c480-45b0-4982-ac25-34230366c3c2",
+            "label": "Box-34",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 522,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "edd4288d-9300-427e-a82f-d72bf220bf7f",
+            "label": "Box-35",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 522,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "9c0f70a6-6afb-4b7d-b397-ab47f6aeec44",
+            "label": "Box-36",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 522,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "445d8cbe-6538-49c4-a092-e0908e957ca3",
+            "label": "Box-43",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 640,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "cc424ff1-9a18-4898-a04b-d750702b2f8e",
+            "label": "Box-60",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 758,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "136eb845-29e1-4345-87a8-8583cad3548b",
+            "label": "Box-59",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 758,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "9878261d-be19-48ea-9087-10992b02da0c",
+            "label": "Box-58",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 758,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "d3fc81a1-e0ca-4208-8834-a0712508f8da",
+            "label": "Box-57",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 758,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "4e1d4293-bd18-449b-970e-cb241fef1f39",
+            "label": "Box-56",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 758,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "b487888d-71c4-4232-818e-646640557a7d",
+            "label": "Box-61",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 817,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "c0133b85-9042-43f5-9b7a-79f21211ec34",
+            "label": "Box-62",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 817,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "31905675-c2b5-44e4-bd41-6febb805d2fa",
+            "label": "Box-63",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 817,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "3ec68b96-2a24-43f6-9f0d-2e540879292a",
+            "label": "Box-64",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 817,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "f5300b36-c9f6-4655-bd90-22d0a181d8fe",
+            "label": "Box-65",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 817,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "5662bddc-4189-46f0-ba6e-350fd1f4e750",
+            "label": "Box-66",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 817,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "2bcf34f2-c776-4a3a-8d27-5430f1fd7d85",
+            "label": "Box-55",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 758,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "aaf80286-c97d-46b6-8893-563fad1c3685",
+            "label": "Box-54",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 699,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "d0ffeb2a-5c9f-4837-8c95-d457454effad",
+            "label": "Box-53",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 699,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "c969d112-187a-4377-a97b-5d64b1f89ec4",
+            "label": "Box-52",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 699,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "98c4ae69-5094-4add-93b9-530c8e47a378",
+            "label": "Box-51",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 699,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "ba2f877d-b3a9-4eca-a10b-b7cffe609398",
+            "label": "Box-50",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 699,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "28b0f134-e101-4719-9319-e7caa148d246",
+            "label": "Box-49",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 699,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "fb7bd9ae-80a3-4b49-82da-35223f968d66",
+            "label": "Box-44",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 640,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "d966f398-00e6-402b-901b-f525a92d2019",
+            "label": "Box-45",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 640,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "042decf6-6e1e-4137-8017-f1974a44c3cd",
+            "label": "Box-46",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 640,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "67fd98fd-9c90-4bc4-bb2b-08b225f1d4cd",
+            "label": "Box-47",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 640,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "1dfc4689-32ce-4122-ac88-65756641ec69",
+            "label": "Box-48",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 640,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "fc74949f-aef9-4c8d-b3e0-3891f675f07b",
+            "label": "Box-67",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 876,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "618f4da1-b030-487e-912f-48d32bdfcaa1",
+            "label": "Box-78",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 936,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "f42f5bc6-b54c-496c-840f-918aff3adfb1",
+            "label": "Box-77",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 936,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "eaaaf927-d7c7-45a6-b396-fdd5ddfa0b38",
+            "label": "Box-76",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 936,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "a473398b-b410-486c-95ee-c5417c4d3283",
+            "label": "Box-75",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 936,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "af6ed5b8-5d87-42a0-af1f-ca04bb1ad8ef",
+            "label": "Box-74",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 936,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "f1809023-635a-4b93-94b6-d9c7cba138e2",
+            "label": "Box-73",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 936,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "9f564f7e-0885-484a-a602-70a69996bfb3",
+            "label": "Box-68",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 876,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "0b318329-dc34-4846-bfcc-6f52d892bf22",
+            "label": "Box-69",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 876,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "d6f1868b-807d-4362-9076-0576dc689b1d",
+            "label": "Box-70",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 876,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "427701ab-7309-45ad-8c91-00b884818d7b",
+            "label": "Box-71",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 876,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "3bfcb4b0-3d34-46fb-a23f-60df46220832",
+            "label": "Box-72",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 876,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "00fec3d3-e737-4d01-b9bc-1904db489f90",
+            "label": "Box-79",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 995,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "07882a02-3463-455b-9cb9-91bd32503c17",
+            "label": "Box-84",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 995,
+            "y": 557,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "16598a38-6738-4c48-8738-46fe703f727f",
+            "label": "Box-83",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 995,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "f1876ef5-85ef-493e-b13a-9ad5e4ffa007",
+            "label": "Box-82",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 995,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "6cea161b-f9d7-4fbe-86a3-fc5d3f198b97",
+            "label": "Box-81",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 995,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "454de71e-b244-478c-baff-87dc1c0ad36b",
+            "label": "Box-80",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 995,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "25c3f9df-582f-4e14-8949-7180c927a1a8",
+            "label": "Box-85",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 1054,
+            "y": 197,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "b49937e6-2371-4be8-abe8-a9f7d8fdda1d",
+            "label": "Box-86",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 1054,
+            "y": 268,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "6e07ec8a-11ef-4cbd-8eea-43b4ab9bef14",
+            "label": "Box-87",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 1054,
+            "y": 339,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "8eab66f5-4f50-4c04-98a3-d6cf18efc0c2",
+            "label": "Box-88",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 1054,
+            "y": 415,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "3b772222-2de6-414c-88e9-87abe5c48c1a",
+            "label": "Box-89",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 1054,
+            "y": 486,
+            "scaleX": 0.125,
+            "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "55f70694-ec4f-4911-841f-96ea0c98b20d",
+            "label": "Box-90",
+            "useGameObjectName": true,
+            "components": [],
+            "texture": {
+                "key": "Comp 201"
+            },
+            "x": 1054,
             "y": 557,
             "scaleX": 0.125,
             "scaleY": 0.125
@@ -226,7 +1447,10 @@
                 "f31baaa2-b43e-45f3-a3ce-5ab8be82071b",
                 "b05ba5ab-a976-44ad-a5f4-6aa3ae23481e",
                 "474697ec-e000-4956-a0d6-f6445b0acc1e",
-                "d7382819-56f0-4b16-b7a1-9f14c2922290"
+                "d7382819-56f0-4b16-b7a1-9f14c2922290",
+                "797969e1-62d3-4cf7-b234-5210ab213ad0",
+                "ebbd5f92-6c8b-4352-bf40-a0d251790323",
+                "e71b2545-0943-443d-8846-a98d074e1a27"
             ]
         },
         {
