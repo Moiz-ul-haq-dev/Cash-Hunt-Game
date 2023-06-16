@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Cash Hunt</title>
+
+	<style>
+		body {
+			background: #484341;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+	<script>
+		const font = new FontFace("SHOWG", "url('assets/Fonts/SHOWG.TTF')");
+		font.load().then(function(loadedFace) {
+			document.fonts.add(loadedFace);
+			window.fontsLoaded = true;
+		});
+	</script>
+	<script src="lib/phaser.min.js"></script>
+	<script src="src/components/UserComponent.js"></script>
+	<script src="src/components/PushOnClick.js"></script>
+	<script src="src/components/PreloadText.js"></script>
+	<script src="src/scenes/Preload.js"></script>
+	<script src="src/scenes/Level.js"></script>
+	<script src="src/scenes/YouWinScene.js"></script>
+	<script src="src/main.js"></script>
+
+
+</head>
+
+<body>
+</body>
+
+</html>
