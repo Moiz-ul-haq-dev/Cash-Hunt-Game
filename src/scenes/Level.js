@@ -704,6 +704,59 @@ class Level extends Phaser.Scene {
 		{ key: 'Comp 148' },
 	];
 
+	// red box animation
+
+	redBox = [
+		{ key: 'red-boxes-(1)' },
+		{ key: 'red-boxes-(2)' },
+		{ key: 'red-boxes-(3)' },
+		{ key: 'red-boxes-(4)' },
+		{ key: 'red-boxes-(5)' },
+		{ key: 'red-boxes-(6)' },
+		{ key: 'red-boxes-(7)' },
+		{ key: 'red-boxes-(8)' },
+		{ key: 'red-boxes-(9)' },
+		{ key: 'red-boxes-(10)' },
+		{ key: 'red-boxes-(11)' },
+		{ key: 'red-boxes-(12)' },
+		{ key: 'red-boxes-(13)' },
+		{ key: 'red-boxes-(14)' },
+		{ key: 'red-boxes-(15)' },
+		{ key: 'red-boxes-(16)' },
+		{ key: 'red-boxes-(17)' },
+		{ key: 'red-boxes-(18)' },
+		{ key: 'red-boxes-(19)' },
+		{ key: 'red-boxes-(20)' },
+		{ key: 'red-boxes-(21)' },
+		{ key: 'red-boxes-(22)' },
+		{ key: 'red-boxes-(23)' },
+		{ key: 'red-boxes-(24)' },
+		{ key: 'red-boxes-(25)' },
+		{ key: 'red-boxes-(26)' },
+		{ key: 'red-boxes-(27)' },
+		{ key: 'red-boxes-(28)' },
+		{ key: 'red-boxes-(29)' },
+		{ key: 'red-boxes-(30)' },
+		{ key: 'red-boxes-(31)' },
+		{ key: 'red-boxes-(32)' },
+		{ key: 'red-boxes-(33)' },
+		{ key: 'red-boxes-(34)' },
+		{ key: 'red-boxes-(35)' },
+		{ key: 'red-boxes-(36)' },
+		{ key: 'red-boxes-(37)' },
+		{ key: 'red-boxes-(38)' },
+		{ key: 'red-boxes-(39)' },
+		{ key: 'red-boxes-(40)' },
+		{ key: 'red-boxes-(41)' },
+		{ key: 'red-boxes-(42)' },
+		{ key: 'red-boxes-(43)' },
+		{ key: 'red-boxes-(44)' },
+		{ key: 'red-boxes-(45)' },
+		{ key: 'red-boxes-(46)' },
+		{ key: 'red-boxes-(47)' },
+		{ key: 'red-boxes-(48)' },
+	];
+
 	// current box line animation
 	currentBoxLine = [
 		{ key: 'Comp 200' },
@@ -812,6 +865,7 @@ class Level extends Phaser.Scene {
 	sprites = [];
 	play_btn_click = false;
 	isPointerDown = false;
+	boxNumber;
 
 
 
@@ -879,6 +933,14 @@ class Level extends Phaser.Scene {
 			frameRate: 30,
 			repeat: 0,
 		});
+
+		this.anims.create({
+			key: 'boxRed',
+			frames: this.redBox,
+			frameRate: 30,
+			repeat: 0,
+		});
+
 	}
 
 	setImagesInteractive() {
@@ -935,7 +997,7 @@ class Level extends Phaser.Scene {
 			this.play_btn_click = true;
 			image.visible = false;
 			this.interactiveImages.forEach((image) => {
-				if(image.texture.key === 'shuffle' || image.texture.key === 'cashout'){
+				if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
 					image.visible = true;
 					image.setInteractive();
 				}
@@ -944,70 +1006,52 @@ class Level extends Phaser.Scene {
 			this.generateRandomNumbers(1, 6, 1);
 			console.log(this.numbers[0]);
 			const sprite1 = this.add.sprite(227, 197, 'boxLine').play('boxLine');
-			this.sprites.push(sprite1);
-			sprite1.setInteractive();
 			sprite1.scale = 0.125;
+			sprite1.setInteractive();
+			this.sprites.push(sprite1);
 			sprite1.on('pointerdown', () => {
-				if(this.numbers[0] === 1){
-					sprite1.play('boxBomb');
-				}
 				this.isPointerDown = true;
-				console.log(this.isPointerDown);
+				this.boxNumber = 1;
 			});
 			const sprite2 = this.add.sprite(227, 268, 'boxLine').play('boxLine');
-			this.sprites.push(sprite2);
-			sprite2.setInteractive();
 			sprite2.scale = 0.125;
+			sprite2.setInteractive();
+			this.sprites.push(sprite2);
 			sprite2.on('pointerdown', () => {
-				if(this.numbers[0] === 2){
-					sprite2.play('boxBomb');
-				}
 				this.isPointerDown = true;
-				console.log(this.isPointerDown);
+				this.boxNumber = 2;
 			});
 			const sprite3 = this.add.sprite(227, 339, 'boxLine').play('boxLine');
-			this.sprites.push(sprite3);
-			sprite3.setInteractive();
 			sprite3.scale = 0.125;
+			sprite3.setInteractive();
+			this.sprites.push(sprite3);
 			sprite3.on('pointerdown', () => {
-				if(this.numbers[0] === 3){
-					sprite3.play('boxBomb');
-				}
 				this.isPointerDown = true;
-				console.log(this.isPointerDown);
+				this.boxNumber = 3;
 			});
 			const sprite4 = this.add.sprite(227, 415, 'boxLine').play('boxLine');
-			this.sprites.push(sprite4);
-			sprite4.setInteractive();
 			sprite4.scale = 0.125;
+			sprite4.setInteractive();
+			this.sprites.push(sprite4);
 			sprite4.on('pointerdown', () => {
-				if(this.numbers[0] === 4){
-					sprite4.play('boxBomb');
-				}
 				this.isPointerDown = true;
-				console.log(this.isPointerDown);
+				this.boxNumber = 4;
 			});
 			const sprite5 = this.add.sprite(227, 486, 'boxLine').play('boxLine');
-			this.sprites.push(sprite5);
-			sprite5.setInteractive();
 			sprite5.scale = 0.125;
+			sprite5.setInteractive();
+			this.sprites.push(sprite5);
 			sprite5.on('pointerdown', () => {
-				if(this.numbers[0] === 5){
-					sprite5.play('boxBomb');
-				}
 				this.isPointerDown = true;
-				console.log(this.isPointerDown);
+				this.boxNumber = 5;
 			});
 			const sprite6 = this.add.sprite(227, 557, 'boxLine').play('boxLine');
-			this.sprites.push(sprite6);
-			sprite6.setInteractive();
 			sprite6.scale = 0.125;
+			sprite6.setInteractive();
+			this.sprites.push(sprite6);
 			sprite6.on('pointerdown', () => {
-				if(this.numbers[0] === 6){
-					sprite6.play('boxBomb');
-				}
 				this.isPointerDown = true;
-				console.log(this.isPointerDown);
+				this.boxNumber = 6;
 			});
 		}
 
@@ -1036,60 +1080,78 @@ class Level extends Phaser.Scene {
 			this.music = this.sound.stopAll();
 			this.play_btn_click = false;
 		}
-
-		if(this.numbers[0] === 1 && this.isPointerDown === true){
-			this.sprites[1].play('boxGreen');
-			this.sprites[2].play('boxGreen');
-			this.sprites[3].play('boxGreen');
-			this.sprites[4].play('boxGreen');
-			this.sprites[5].play('boxGreen');
-			this.isPointerDown = false;
-			this.play_btn_click = false;
-		}
-		if(this.numbers[0] === 2 && this.isPointerDown === true){
-			this.sprites[0].play('boxGreen');
-			this.sprites[2].play('boxGreen');
-			this.sprites[3].play('boxGreen');
-			this.sprites[4].play('boxGreen');
-			this.sprites[5].play('boxGreen');
-			this.isPointerDown = false;
-			this.play_btn_click = false;
-		}
-		if(this.numbers[0] === 3 && this.isPointerDown === true){
-			this.sprites[0].play('boxGreen');
-			this.sprites[1].play('boxGreen');
-			this.sprites[3].play('boxGreen');
-			this.sprites[4].play('boxGreen');
-			this.sprites[5].play('boxGreen');
-			this.isPointerDown = false;
-			this.play_btn_click = false;
-		}
-		if(this.numbers[0] === 4 && this.isPointerDown === true){
-			this.sprites[0].play('boxGreen');
-			this.sprites[1].play('boxGreen');
-			this.sprites[2].play('boxGreen');
-			this.sprites[4].play('boxGreen');
-			this.sprites[5].play('boxGreen');
-			this.isPointerDown = false;
-			this.play_btn_click = false;
-		}
-		if(this.numbers[0] === 5 && this.isPointerDown === true){
-			this.sprites[0].play('boxGreen');
-			this.sprites[1].play('boxGreen');
-			this.sprites[2].play('boxGreen');
-			this.sprites[3].play('boxGreen');
-			this.sprites[5].play('boxGreen');
-			this.isPointerDown = false;
-			this.play_btn_click = false;
-		}
-		if(this.numbers[0] === 6 && this.isPointerDown === true){
-			this.sprites[0].play('boxGreen');
-			this.sprites[1].play('boxGreen');
-			this.sprites[2].play('boxGreen');
-			this.sprites[3].play('boxGreen');
-			this.sprites[4].play('boxGreen');
-			this.isPointerDown = false;
-			this.play_btn_click = false;
+		if (this.isPointerDown === true) {
+			if (this.numbers[0] === 1 && this.boxNumber === 1) {
+				this.sprites[0].play('boxBomb');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			if (this.numbers[0] === 1 && this.boxNumber !== 1) {
+				console.log(this.sprites[0].scale);
+				this.sprites[0].play('boxRed');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			if (this.numbers[0] === 2 && this.boxNumber === 2) {
+				this.sprites[1].play('boxBomb');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			if (this.numbers[0] === 2 && this.boxNumber !== 2) {
+				console.log(this.sprites[1].scale);
+				this.sprites[1].play('boxRed');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			if (this.numbers[0] === 3 && this.boxNumber === 3) {
+				this.sprites[2].play('boxBomb');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			if (this.numbers[0] === 3 && this.boxNumber !== 3) {
+				console.log(this.sprites[2].scale);
+				this.sprites[2].play('boxRed');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			if (this.numbers[0] === 4 && this.boxNumber === 4) {
+				this.sprites[3].play('boxBomb');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			if (this.numbers[0] === 4 && this.boxNumber !== 4) {
+				console.log(this.sprites[3].scale);
+				this.sprites[3].play('boxRed');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			if (this.numbers[0] === 5 && this.boxNumber === 5) {
+				this.sprites[4].play('boxBomb');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			if (this.numbers[0] === 5 && this.boxNumber !== 5) {
+				console.log(this.sprites[4].scale);
+				this.sprites[4].play('boxRed');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			if (this.numbers[0] === 6 && this.boxNumber === 6) {
+				this.sprites[5].play('boxBomb');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			if (this.numbers[0] === 6 && this.boxNumber !== 6) {
+				console.log(this.sprites[5].scale);
+				this.sprites[5].play('boxRed');
+				this.isPointerDown = false;
+				this.play_btn_click = false;
+			}
+			for(let i = 0; i < this.sprites.length; i++){
+				if(i !== this.numbers[0] - 1){
+					this.sprites[i].play('boxGreen');
+				}
+			}
 		}
 	}
 	/* END-USER-CODE */

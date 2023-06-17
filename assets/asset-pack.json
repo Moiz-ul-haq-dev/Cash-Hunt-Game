@@ -784,6 +784,246 @@
                 "key": "play_btn"
             },
             {
+                "url": "assets/red-boxes-(1).png",
+                "type": "image",
+                "key": "red-boxes-(1)"
+            },
+            {
+                "url": "assets/red-boxes-(10).png",
+                "type": "image",
+                "key": "red-boxes-(10)"
+            },
+            {
+                "url": "assets/red-boxes-(11).png",
+                "type": "image",
+                "key": "red-boxes-(11)"
+            },
+            {
+                "url": "assets/red-boxes-(12).png",
+                "type": "image",
+                "key": "red-boxes-(12)"
+            },
+            {
+                "url": "assets/red-boxes-(13).png",
+                "type": "image",
+                "key": "red-boxes-(13)"
+            },
+            {
+                "url": "assets/red-boxes-(14).png",
+                "type": "image",
+                "key": "red-boxes-(14)"
+            },
+            {
+                "url": "assets/red-boxes-(15).png",
+                "type": "image",
+                "key": "red-boxes-(15)"
+            },
+            {
+                "url": "assets/red-boxes-(16).png",
+                "type": "image",
+                "key": "red-boxes-(16)"
+            },
+            {
+                "url": "assets/red-boxes-(17).png",
+                "type": "image",
+                "key": "red-boxes-(17)"
+            },
+            {
+                "url": "assets/red-boxes-(18).png",
+                "type": "image",
+                "key": "red-boxes-(18)"
+            },
+            {
+                "url": "assets/red-boxes-(19).png",
+                "type": "image",
+                "key": "red-boxes-(19)"
+            },
+            {
+                "url": "assets/red-boxes-(2).png",
+                "type": "image",
+                "key": "red-boxes-(2)"
+            },
+            {
+                "url": "assets/red-boxes-(20).png",
+                "type": "image",
+                "key": "red-boxes-(20)"
+            },
+            {
+                "url": "assets/red-boxes-(21).png",
+                "type": "image",
+                "key": "red-boxes-(21)"
+            },
+            {
+                "url": "assets/red-boxes-(22).png",
+                "type": "image",
+                "key": "red-boxes-(22)"
+            },
+            {
+                "url": "assets/red-boxes-(23).png",
+                "type": "image",
+                "key": "red-boxes-(23)"
+            },
+            {
+                "url": "assets/red-boxes-(24).png",
+                "type": "image",
+                "key": "red-boxes-(24)"
+            },
+            {
+                "url": "assets/red-boxes-(25).png",
+                "type": "image",
+                "key": "red-boxes-(25)"
+            },
+            {
+                "url": "assets/red-boxes-(26).png",
+                "type": "image",
+                "key": "red-boxes-(26)"
+            },
+            {
+                "url": "assets/red-boxes-(27).png",
+                "type": "image",
+                "key": "red-boxes-(27)"
+            },
+            {
+                "url": "assets/red-boxes-(28).png",
+                "type": "image",
+                "key": "red-boxes-(28)"
+            },
+            {
+                "url": "assets/red-boxes-(29).png",
+                "type": "image",
+                "key": "red-boxes-(29)"
+            },
+            {
+                "url": "assets/red-boxes-(3).png",
+                "type": "image",
+                "key": "red-boxes-(3)"
+            },
+            {
+                "url": "assets/red-boxes-(30).png",
+                "type": "image",
+                "key": "red-boxes-(30)"
+            },
+            {
+                "url": "assets/red-boxes-(31).png",
+                "type": "image",
+                "key": "red-boxes-(31)"
+            },
+            {
+                "url": "assets/red-boxes-(32).png",
+                "type": "image",
+                "key": "red-boxes-(32)"
+            },
+            {
+                "url": "assets/red-boxes-(33).png",
+                "type": "image",
+                "key": "red-boxes-(33)"
+            },
+            {
+                "url": "assets/red-boxes-(34).png",
+                "type": "image",
+                "key": "red-boxes-(34)"
+            },
+            {
+                "url": "assets/red-boxes-(35).png",
+                "type": "image",
+                "key": "red-boxes-(35)"
+            },
+            {
+                "url": "assets/red-boxes-(36).png",
+                "type": "image",
+                "key": "red-boxes-(36)"
+            },
+            {
+                "url": "assets/red-boxes-(37).png",
+                "type": "image",
+                "key": "red-boxes-(37)"
+            },
+            {
+                "url": "assets/red-boxes-(38).png",
+                "type": "image",
+                "key": "red-boxes-(38)"
+            },
+            {
+                "url": "assets/red-boxes-(39).png",
+                "type": "image",
+                "key": "red-boxes-(39)"
+            },
+            {
+                "url": "assets/red-boxes-(4).png",
+                "type": "image",
+                "key": "red-boxes-(4)"
+            },
+            {
+                "url": "assets/red-boxes-(40).png",
+                "type": "image",
+                "key": "red-boxes-(40)"
+            },
+            {
+                "url": "assets/red-boxes-(41).png",
+                "type": "image",
+                "key": "red-boxes-(41)"
+            },
+            {
+                "url": "assets/red-boxes-(42).png",
+                "type": "image",
+                "key": "red-boxes-(42)"
+            },
+            {
+                "url": "assets/red-boxes-(43).png",
+                "type": "image",
+                "key": "red-boxes-(43)"
+            },
+            {
+                "url": "assets/red-boxes-(44).png",
+                "type": "image",
+                "key": "red-boxes-(44)"
+            },
+            {
+                "url": "assets/red-boxes-(45).png",
+                "type": "image",
+                "key": "red-boxes-(45)"
+            },
+            {
+                "url": "assets/red-boxes-(46).png",
+                "type": "image",
+                "key": "red-boxes-(46)"
+            },
+            {
+                "url": "assets/red-boxes-(47).png",
+                "type": "image",
+                "key": "red-boxes-(47)"
+            },
+            {
+                "url": "assets/red-boxes-(48).png",
+                "type": "image",
+                "key": "red-boxes-(48)"
+            },
+            {
+                "url": "assets/red-boxes-(5).png",
+                "type": "image",
+                "key": "red-boxes-(5)"
+            },
+            {
+                "url": "assets/red-boxes-(6).png",
+                "type": "image",
+                "key": "red-boxes-(6)"
+            },
+            {
+                "url": "assets/red-boxes-(7).png",
+                "type": "image",
+                "key": "red-boxes-(7)"
+            },
+            {
+                "url": "assets/red-boxes-(8).png",
+                "type": "image",
+                "key": "red-boxes-(8)"
+            },
+            {
+                "url": "assets/red-boxes-(9).png",
+                "type": "image",
+                "key": "red-boxes-(9)"
+            },
+            {
                 "url": "assets/setings button.png",
                 "type": "image",
                 "key": "setings button"
