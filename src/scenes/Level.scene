@@ -1428,6 +1428,34 @@
             "y": 557,
             "scaleX": 0.125,
             "scaleY": 0.125
+        },
+        {
+            "type": "Image",
+            "id": "742eb807-6128-4042-a486-c501551caec1",
+            "label": "cashout",
+            "components": [],
+            "texture": {
+                "key": "cashout"
+            },
+            "x": 770,
+            "y": 650,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "25abbc6b-f617-4b15-ad51-561e4d7076aa",
+            "label": "shuffle",
+            "components": [],
+            "texture": {
+                "key": "shuffle"
+            },
+            "x": 640,
+            "y": 646.5,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "visible": false
         }
     ],
     "plainObjects": [],
@@ -1450,7 +1478,9 @@
                 "d7382819-56f0-4b16-b7a1-9f14c2922290",
                 "797969e1-62d3-4cf7-b234-5210ab213ad0",
                 "ebbd5f92-6c8b-4352-bf40-a0d251790323",
-                "e71b2545-0943-443d-8846-a98d074e1a27"
+                "e71b2545-0943-443d-8846-a98d074e1a27",
+                "742eb807-6128-4042-a486-c501551caec1",
+                "25abbc6b-f617-4b15-ad51-561e4d7076aa"
             ]
         },
         {

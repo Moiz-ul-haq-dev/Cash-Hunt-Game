@@ -34,6 +34,11 @@
                 "key": "Cash_Hunt_Logo-removebg-preview"
             },
             {
+                "url": "assets/cashout.png",
+                "type": "image",
+                "key": "cashout"
+            },
+            {
                 "url": "assets/Comp 1_100.png",
                 "type": "image",
                 "key": "Comp 1_100"
@@ -782,6 +787,11 @@
                 "url": "assets/setings button.png",
                 "type": "image",
                 "key": "setings button"
+            },
+            {
+                "url": "assets/shuffle.png",
+                "type": "image",
+                "key": "shuffle"
             },
             {
                 "url": "assets/slot machine.png",
