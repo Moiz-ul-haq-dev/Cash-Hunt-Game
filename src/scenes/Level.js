@@ -1142,9 +1142,9 @@ class Level extends Phaser.Scene {
 
 	showTimer() {
 		let maxTime = 15;
-		time = Math.floor(this.timer.getElapsedSeconds());
+		let time = Math.floor(this.timer.getElapsedSeconds());
 		console.log("time",time);
-		timeLeft = maxTime - time;
+		let timeLeft = maxTime - time;
 		console.log("timeLeft",timeLeft);
 		if (timeLeft <= 0) {
 			timeLeft = 0;
