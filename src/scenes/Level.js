@@ -21,6 +21,11 @@ class Level extends Phaser.Scene {
 		background.scaleX = 0.7268502635277192;
 		background.scaleY = 0.739203605768162;
 
+		// timer_changed_6_x_15
+		const timer_changed_6_x_15 = this.add.image(640, 345.2049014243382, "timer changed 6 x 15");
+		timer_changed_6_x_15.scaleX = 0.665291941670825;
+		timer_changed_6_x_15.scaleY = 0.6199909232882627;
+
 		// cash_Hunt_Logo_removebg_preview
 		const cash_Hunt_Logo_removebg_preview = this.add.image(640, 80, "Cash_Hunt_Logo-removebg-preview");
 		cash_Hunt_Logo_removebg_preview.scaleX = 0.3;
@@ -59,11 +64,6 @@ class Level extends Phaser.Scene {
 		timer_button.scaleX = 0.6;
 		timer_button.scaleY = 0.6;
 		timer_button.visible = false;
-
-		// modified_6x15
-		const modified_6x15 = this.add.image(640, 345.2049014243382, "Modified 6x15");
-		modified_6x15.scaleX = 0.665291941670825;
-		modified_6x15.scaleY = 0.6199909232882627;
 
 		// Box-1
 		const box_1 = this.add.image(227, 197, "Comp 201");
@@ -879,34 +879,34 @@ class Level extends Phaser.Scene {
 		this.setImagesInteractive();
 		this.input.on('gameobjectdown', this.imageClick.bind(this));
 
-		this.timerText = this.add.text(1223, 343, "", {
+		this.timerText = this.add.text(1220, 343, "", {
 			"fontSize": "20px",
-			"fontFamily": "SHOWG",
+			"fontFamily": "Arial",
 		});
 
 		this.Pricetag1 = this.add.text(1017, 97, "Price", {
 			"fontSize": "20px",
-			"fontFamily": "SHOWG",
+			"fontFamily": "Arial",
 		});
 		this.price1 = this.add.text(1025, 120, "150000", {
 			"fontSize": "20px",
-			"fontFamily": "SHOWG",
+			"fontFamily": "Arial",
 		});
 		this.symbol1 = this.add.text(995, 117, "\u20A6", {
 			"fontSize": "25px",
-			"fontFamily": "SHOWG",
+			"fontFamily": "Arial",
 		});
 		this.Pricetag2 = this.add.text(190, 97, "Balance", {
 			"fontSize": "20px",
-			"fontFamily": "SHOWG",
+			"fontFamily": "Arial",
 		});
 		this.price2 = this.add.text(215, 118, "150000", {
 			"fontSize": "20px",
-			"fontFamily": "SHOWG",
+			"fontFamily": "Arial",
 		});
 		this.symbol2 = this.add.text(185, 117, "\u20A6", {
 			"fontSize": "25px",
-			"fontFamily": "SHOWG",
+			"fontFamily": "Arial",
 		});
 
 		this.load.audio("Background Music", "assets/Background Music.mp3");
@@ -1142,8 +1142,10 @@ class Level extends Phaser.Scene {
 
 	showTimer() {
 		let maxTime = 15;
-		let time = Math.floor(this.timer.getElapsedSeconds());
-		let timeLeft = maxTime - time;
+		time = Math.floor(this.timer.getElapsedSeconds());
+		console.log("time",time);
+		timeLeft = maxTime - time;
+		console.log("timeLeft",timeLeft);
 		if (timeLeft <= 0) {
 			timeLeft = 0;
 			this.timerOver = true;
@@ -1156,11 +1158,8 @@ class Level extends Phaser.Scene {
 
 	update() {
 		if (this.timerOver === false && this.play_btn_click === true) {
-			this.showTimer();
+			this.showTimer();			
 		}
-		// else{
-		// 	this.showTimer();
-		// }
 		if (this.timerOver === true) {
 			this.scene.start('YouWinScene');
 			this.music = this.sound.stopAll();
@@ -1178,13 +1177,11 @@ class Level extends Phaser.Scene {
 					}
 				});
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			if (this.numbers[0] === 1 && this.boxNumber !== 1) {
 				console.log(this.sprites[0].scale);
 				this.sprites[0].play('boxRed');
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			if (this.numbers[0] === 2 && this.boxNumber === 2) {
 				this.sprites[1].play('boxBomb');
@@ -1197,13 +1194,11 @@ class Level extends Phaser.Scene {
 					}
 				});
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			if (this.numbers[0] === 2 && this.boxNumber !== 2) {
 				console.log(this.sprites[1].scale);
 				this.sprites[1].play('boxRed');
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			if (this.numbers[0] === 3 && this.boxNumber === 3) {
 				this.sprites[2].play('boxBomb');
@@ -1216,13 +1211,11 @@ class Level extends Phaser.Scene {
 					}
 				});
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			if (this.numbers[0] === 3 && this.boxNumber !== 3) {
 				console.log(this.sprites[2].scale);
 				this.sprites[2].play('boxRed');
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			if (this.numbers[0] === 4 && this.boxNumber === 4) {
 				this.sprites[3].play('boxBomb');
@@ -1235,13 +1228,11 @@ class Level extends Phaser.Scene {
 					}
 				});
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			if (this.numbers[0] === 4 && this.boxNumber !== 4) {
 				console.log(this.sprites[3].scale);
 				this.sprites[3].play('boxRed');
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			if (this.numbers[0] === 5 && this.boxNumber === 5) {
 				this.sprites[4].play('boxBomb');
@@ -1254,13 +1245,11 @@ class Level extends Phaser.Scene {
 					}
 				});
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			if (this.numbers[0] === 5 && this.boxNumber !== 5) {
 				console.log(this.sprites[4].scale);
 				this.sprites[4].play('boxRed');
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			if (this.numbers[0] === 6 && this.boxNumber === 6) {
 				this.sprites[5].play('boxBomb');
@@ -1273,22 +1262,17 @@ class Level extends Phaser.Scene {
 					}
 				});
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			if (this.numbers[0] === 6 && this.boxNumber !== 6) {
 				console.log(this.sprites[5].scale);
 				this.sprites[5].play('boxRed');
 				this.isPointerDown = false;
-				this.play_btn_click = false;
 			}
 			for(let i = 0; i < this.sprites.length; i++){
 				if(i !== this.numbers[0] - 1){
 					this.sprites[i].play('boxGreen');
 				}
 			}
-		}
-		else{
-			this.showTimer();
 		}
 	}
 	/* END-USER-CODE */

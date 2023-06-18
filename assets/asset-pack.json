@@ -1064,6 +1064,11 @@
                 "key": "timer button"
             },
             {
+                "url": "assets/timer changed 6 x 15.png",
+                "type": "image",
+                "key": "timer changed 6 x 15"
+            },
+            {
                 "url": "assets/UI - Before Game Start.png",
                 "type": "image",
                 "key": "UI - Before Game Start"

@@ -24,6 +24,19 @@
         },
         {
             "type": "Image",
+            "id": "293c7ac9-4030-48e1-afc8-2aabf3602daf",
+            "label": "timer_changed_6_x_15",
+            "components": [],
+            "texture": {
+                "key": "timer changed 6 x 15"
+            },
+            "x": 640,
+            "y": 345.2049014243382,
+            "scaleX": 0.665291941670825,
+            "scaleY": 0.6199909232882627
+        },
+        {
+            "type": "Image",
             "id": "fc02965f-6f0e-4246-b9f6-c06305ac6517",
             "label": "cash_Hunt_Logo_removebg_preview",
             "components": [],
@@ -116,19 +129,6 @@
             "scaleX": 0.6,
             "scaleY": 0.6,
             "visible": false
-        },
-        {
-            "type": "Image",
-            "id": "742717c7-13e3-4be3-8a11-5186e43e5152",
-            "label": "modified_6x15",
-            "components": [],
-            "texture": {
-                "key": "Modified 6x15"
-            },
-            "x": 640,
-            "y": 345.2049014243382,
-            "scaleX": 0.665291941670825,
-            "scaleY": 0.6199909232882627
         },
         {
             "type": "Image",
