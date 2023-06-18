@@ -866,6 +866,8 @@ class Level extends Phaser.Scene {
 	play_btn_click = false;
 	isPointerDown = false;
 	boxNumber;
+	xIncrement = 0;
+	counter = 0; 
 
 
 
@@ -924,7 +926,7 @@ class Level extends Phaser.Scene {
 			key: 'boxLine',
 			frames: this.currentBoxLine,
 			frameRate: 30,
-			repeat: 0,
+			repeat: -1,
 		});
 
 		this.anims.create({
@@ -940,6 +942,8 @@ class Level extends Phaser.Scene {
 			frameRate: 30,
 			repeat: 0,
 		});
+
+		this.allSprites = this.add.group();
 
 	}
 
@@ -994,6 +998,16 @@ class Level extends Phaser.Scene {
 			this.sound.resumeAll();
 		}
 		if (image.texture.key === 'play_btn') {
+			this.numbers = [];
+			this.generateRandomNumbers(1, 6, 1);
+			console.log(this.numbers[0]);
+			this.sprites.forEach(sprite => {
+				sprite.visible = false;
+			});
+			this.allSprites.clear(true, true);
+			this.sprites = [];
+			this.xIncrement = 59;
+			this.counter = 1;
 			this.play_btn_click = true;
 			image.visible = false;
 			this.interactiveImages.forEach((image) => {
@@ -1002,57 +1016,126 @@ class Level extends Phaser.Scene {
 					image.setInteractive();
 				}
 			});
-			this.numbers = [];
-			this.generateRandomNumbers(1, 6, 1);
-			console.log(this.numbers[0]);
+
 			const sprite1 = this.add.sprite(227, 197, 'boxLine').play('boxLine');
 			sprite1.scale = 0.125;
 			sprite1.setInteractive();
-			this.sprites.push(sprite1);
 			sprite1.on('pointerdown', () => {
 				this.isPointerDown = true;
 				this.boxNumber = 1;
 			});
+			this.sprites.push(sprite1);
+			this.allSprites.add(sprite1);
 			const sprite2 = this.add.sprite(227, 268, 'boxLine').play('boxLine');
 			sprite2.scale = 0.125;
 			sprite2.setInteractive();
-			this.sprites.push(sprite2);
 			sprite2.on('pointerdown', () => {
 				this.isPointerDown = true;
 				this.boxNumber = 2;
 			});
+			this.sprites.push(sprite2);
+			this.allSprites.add(sprite2);
 			const sprite3 = this.add.sprite(227, 339, 'boxLine').play('boxLine');
 			sprite3.scale = 0.125;
 			sprite3.setInteractive();
-			this.sprites.push(sprite3);
 			sprite3.on('pointerdown', () => {
 				this.isPointerDown = true;
 				this.boxNumber = 3;
 			});
+			this.sprites.push(sprite3);
+			this.allSprites.add(sprite3);
 			const sprite4 = this.add.sprite(227, 415, 'boxLine').play('boxLine');
 			sprite4.scale = 0.125;
 			sprite4.setInteractive();
-			this.sprites.push(sprite4);
 			sprite4.on('pointerdown', () => {
 				this.isPointerDown = true;
 				this.boxNumber = 4;
 			});
+			this.sprites.push(sprite4);
+			this.allSprites.add(sprite4);
 			const sprite5 = this.add.sprite(227, 486, 'boxLine').play('boxLine');
 			sprite5.scale = 0.125;
 			sprite5.setInteractive();
-			this.sprites.push(sprite5);
 			sprite5.on('pointerdown', () => {
 				this.isPointerDown = true;
 				this.boxNumber = 5;
 			});
+			this.sprites.push(sprite5);
+			this.allSprites.add(sprite5);
 			const sprite6 = this.add.sprite(227, 557, 'boxLine').play('boxLine');
 			sprite6.scale = 0.125;
 			sprite6.setInteractive();
-			this.sprites.push(sprite6);
 			sprite6.on('pointerdown', () => {
 				this.isPointerDown = true;
 				this.boxNumber = 6;
 			});
+			this.sprites.push(sprite6);
+			this.allSprites.add(sprite6);
+			console.log(this.sprites);
+		}
+
+		if(image.texture.key === 'shuffle' && this.counter < 15){
+			this.numbers = [];
+			this.generateRandomNumbers(1, 6, 1);
+			console.log(this.numbers[0]);
+			this.sprites = [];
+			const sprite1 = this.add.sprite(227 + this.xIncrement, 197, 'boxLine').play('boxLine');
+			sprite1.scale = 0.125;
+			sprite1.setInteractive();
+			this.sprites.push(sprite1);
+			this.allSprites.add(sprite1);
+			sprite1.on('pointerdown', () => {
+				this.isPointerDown = true;
+				this.boxNumber = 1;
+			});
+			const sprite2 = this.add.sprite(227 + this.xIncrement, 268, 'boxLine').play('boxLine');
+			sprite2.scale = 0.125;
+			sprite2.setInteractive();
+			this.sprites.push(sprite2);
+			this.allSprites.add(sprite2);
+			sprite2.on('pointerdown', () => {
+				this.isPointerDown = true;
+				this.boxNumber = 2;
+			});
+			const sprite3 = this.add.sprite(227 + this.xIncrement, 339, 'boxLine').play('boxLine');
+			sprite3.scale = 0.125;
+			sprite3.setInteractive();
+			this.sprites.push(sprite3);
+			this.allSprites.add(sprite3);
+			sprite3.on('pointerdown', () => {
+				this.isPointerDown = true;
+				this.boxNumber = 3;
+			});
+			const sprite4 = this.add.sprite(227 + this.xIncrement, 415, 'boxLine').play('boxLine');
+			sprite4.scale = 0.125;
+			sprite4.setInteractive();
+			this.sprites.push(sprite4);
+			this.allSprites.add(sprite4);
+			sprite4.on('pointerdown', () => {
+				this.isPointerDown = true;
+				this.boxNumber = 4;
+			});
+			const sprite5 = this.add.sprite(227 + this.xIncrement, 486, 'boxLine').play('boxLine');
+			sprite5.scale = 0.125;
+			sprite5.setInteractive();
+			this.sprites.push(sprite5);
+			this.allSprites.add(sprite5);
+			sprite5.on('pointerdown', () => {
+				this.isPointerDown = true;
+				this.boxNumber = 5;
+			});
+			const sprite6 = this.add.sprite(227 + this.xIncrement, 557, 'boxLine').play('boxLine');
+			sprite6.scale = 0.125;
+			sprite6.setInteractive();
+			this.sprites.push(sprite6);
+			this.allSprites.add(sprite6);
+			sprite6.on('pointerdown', () => {
+				this.isPointerDown = true;
+				this.boxNumber = 6;
+			});
+
+			this.xIncrement += 59;
+			this.counter++;
 		}
 
 	}
@@ -1075,6 +1158,9 @@ class Level extends Phaser.Scene {
 		if (this.timerOver === false && this.play_btn_click === true) {
 			this.showTimer();
 		}
+		// else{
+		// 	this.showTimer();
+		// }
 		if (this.timerOver === true) {
 			this.scene.start('YouWinScene');
 			this.music = this.sound.stopAll();
@@ -1083,6 +1169,14 @@ class Level extends Phaser.Scene {
 		if (this.isPointerDown === true) {
 			if (this.numbers[0] === 1 && this.boxNumber === 1) {
 				this.sprites[0].play('boxBomb');
+				this.interactiveImages.forEach((image) => {
+					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
+						image.visible = false;
+					}
+					if(image.texture.key === 'play_btn'){
+						image.visible = true;
+					}
+				});
 				this.isPointerDown = false;
 				this.play_btn_click = false;
 			}
@@ -1094,6 +1188,14 @@ class Level extends Phaser.Scene {
 			}
 			if (this.numbers[0] === 2 && this.boxNumber === 2) {
 				this.sprites[1].play('boxBomb');
+				this.interactiveImages.forEach((image) => {
+					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
+						image.visible = false;
+					}
+					if(image.texture.key === 'play_btn'){
+						image.visible = true;
+					}
+				});
 				this.isPointerDown = false;
 				this.play_btn_click = false;
 			}
@@ -1105,6 +1207,14 @@ class Level extends Phaser.Scene {
 			}
 			if (this.numbers[0] === 3 && this.boxNumber === 3) {
 				this.sprites[2].play('boxBomb');
+				this.interactiveImages.forEach((image) => {
+					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
+						image.visible = false;
+					}
+					if(image.texture.key === 'play_btn'){
+						image.visible = true;
+					}
+				});
 				this.isPointerDown = false;
 				this.play_btn_click = false;
 			}
@@ -1116,6 +1226,14 @@ class Level extends Phaser.Scene {
 			}
 			if (this.numbers[0] === 4 && this.boxNumber === 4) {
 				this.sprites[3].play('boxBomb');
+				this.interactiveImages.forEach((image) => {
+					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
+						image.visible = false;
+					}
+					if(image.texture.key === 'play_btn'){
+						image.visible = true;
+					}
+				});
 				this.isPointerDown = false;
 				this.play_btn_click = false;
 			}
@@ -1127,6 +1245,14 @@ class Level extends Phaser.Scene {
 			}
 			if (this.numbers[0] === 5 && this.boxNumber === 5) {
 				this.sprites[4].play('boxBomb');
+				this.interactiveImages.forEach((image) => {
+					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
+						image.visible = false;
+					}
+					if(image.texture.key === 'play_btn'){
+						image.visible = true;
+					}
+				});
 				this.isPointerDown = false;
 				this.play_btn_click = false;
 			}
@@ -1138,6 +1264,14 @@ class Level extends Phaser.Scene {
 			}
 			if (this.numbers[0] === 6 && this.boxNumber === 6) {
 				this.sprites[5].play('boxBomb');
+				this.interactiveImages.forEach((image) => {
+					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
+						image.visible = false;
+					}
+					if(image.texture.key === 'play_btn'){
+						image.visible = true;
+					}
+				});
 				this.isPointerDown = false;
 				this.play_btn_click = false;
 			}
@@ -1152,6 +1286,9 @@ class Level extends Phaser.Scene {
 					this.sprites[i].play('boxGreen');
 				}
 			}
+		}
+		else{
+			this.showTimer();
 		}
 	}
 	/* END-USER-CODE */
