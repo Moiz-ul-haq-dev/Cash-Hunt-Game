@@ -987,6 +987,7 @@ class Level extends Phaser.Scene {
 	numbers = [];
 	sprites = [];
 	play_btn_click = false;
+	play_btn;
 	gameOver = false;
 	maxTime = 15;
 	isPointerDown = false;
@@ -1131,9 +1132,11 @@ class Level extends Phaser.Scene {
 		}
 		if (image.texture.key === 'play_btn') {
 			
-			const play_btn = this.add.sprite(640, 649, 'playAnimation').play('playAnimation');
-			play_btn.scale = 0.25;
-			play_btn.play('playAnimation');
+			this.play_btn = this.add.sprite(640, 649, 'playAnimation').play('playAnimation');
+			this.play_btn.scale = 0.25;
+			this.play_btn.play('playAnimation').on('animationcomplete', () => {
+				this.play_btn.visible = false;
+			});
 
 			this.numbers = [];
 			this.generateRandomNumbers(1, 6, 1);
