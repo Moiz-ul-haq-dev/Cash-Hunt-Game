@@ -636,10 +636,40 @@ class Level extends Phaser.Scene {
 		const interactiveImages = [exit_button, setings_button, info_button, sound_button, timer_button, sound_close_btn, play_btn, amount, slot_setting, cashout, shuffle];
 		const settings_options = [info_button, timer_button, sound_button, sound_close_btn];
 		const sound_options = [sound_close_btn];
+		const box_Col_1 = [box_1, box_6, box_5, box_4, box_3, box_2];
+		const box_Col_2 = [box_7, box_8, box_9, box_10, box_11, box_12];
+		const box_Col_3 = [box_13, box_18, box_17, box_16, box_15, box_14];
+		const box_Col_4 = [box_19, box_20, box_21, box_22, box_23, box_24];
+		const box_Col_5 = [box_25, box_30, box_29, box_28, box_27, box_26];
+		const box_Col_6 = [box_31, box_32, box_33, box_34, box_35, box_36];
+		const box_Col_7 = [box_37, box_38, box_39, box_40, box_41, box_42];
+		const box_Col_8 = [box_43, box_44, box_45, box_46, box_47, box_48];
+		const box_Col_9 = [box_49, box_50, box_51, box_52, box_53, box_54];
+		const box_Col_10 = [box_55, box_56, box_57, box_58, box_59, box_60];
+		const box_Col_11 = [box_61, box_66, box_65, box_64, box_63, box_62];
+		const box_Col_12 = [box_67, box_69, box_68, box_70, box_71, box_72];
+		const box_Col_13 = [box_73, box_74, box_75, box_76, box_77, box_78];
+		const box_Col_14 = [box_79, box_80, box_81, box_82, box_83, box_84];
+		const box_Col_15 = [box_85, box_90, box_89, box_88, box_87, box_86];
 
 		this.interactiveImages = interactiveImages;
 		this.settings_options = settings_options;
 		this.sound_options = sound_options;
+		this.box_Col_1 = box_Col_1;
+		this.box_Col_2 = box_Col_2;
+		this.box_Col_3 = box_Col_3;
+		this.box_Col_4 = box_Col_4;
+		this.box_Col_5 = box_Col_5;
+		this.box_Col_6 = box_Col_6;
+		this.box_Col_7 = box_Col_7;
+		this.box_Col_8 = box_Col_8;
+		this.box_Col_9 = box_Col_9;
+		this.box_Col_10 = box_Col_10;
+		this.box_Col_11 = box_Col_11;
+		this.box_Col_12 = box_Col_12;
+		this.box_Col_13 = box_Col_13;
+		this.box_Col_14 = box_Col_14;
+		this.box_Col_15 = box_Col_15;
 
 		this.events.emit("scene-awake");
 	}
@@ -650,6 +680,36 @@ class Level extends Phaser.Scene {
 	settings_options;
 	/** @type {Phaser.GameObjects.Image[]} */
 	sound_options;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_1;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_2;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_3;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_4;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_5;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_6;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_7;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_8;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_9;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_10;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_11;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_12;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_13;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_14;
+	/** @type {Phaser.GameObjects.Image[]} */
+	box_Col_15;
 
 	/* START-USER-CODE */
 	// box animation
@@ -1138,6 +1198,80 @@ class Level extends Phaser.Scene {
 
 			this.xIncrement += 59;
 			this.counter++;
+
+			if(this.counter === 2){
+				for(let i = 0; i < this.box_Col_2.length; i++){
+					this.box_Col_2[i].visible = false;
+				}
+			}
+			else if(this.counter === 3){
+				for(let i = 0; i < this.box_Col_3.length; i++){
+					this.box_Col_3[i].visible = false;
+				}
+			}
+			else if(this.counter === 4){
+				for(let i = 0; i < this.box_Col_4.length; i++){
+					this.box_Col_4[i].visible = false;
+				}
+			}
+			else if(this.counter === 5){
+				for(let i = 0; i < this.box_Col_5.length; i++){
+					this.box_Col_5[i].visible = false;
+				}
+			}
+			else if(this.counter === 6){
+				for(let i = 0; i < this.box_Col_6.length; i++){
+					this.box_Col_6[i].visible = false;
+				}
+			}
+			else if(this.counter === 7){
+				for(let i = 0; i < this.box_Col_7.length; i++){
+					this.box_Col_7[i].visible = false;
+				}
+			}
+			else if(this.counter === 8){
+				for(let i = 0; i < this.box_Col_8.length; i++){
+					this.box_Col_8[i].visible = false;
+				}
+			}
+			else if(this.counter === 9){
+				for(let i = 0; i < this.box_Col_9.length; i++){
+					this.box_Col_9[i].visible = false;
+				}
+			}
+			else if(this.counter === 10){
+				for(let i = 0; i < this.box_Col_10.length; i++){
+					this.box_Col_10[i].visible = false;
+				}
+			}
+			else if(this.counter === 11){
+				for(let i = 0; i < this.box_Col_11.length; i++){
+					this.box_Col_11[i].visible = false;
+				}
+			}
+			else if(this.counter === 12){
+				for(let i = 0; i < this.box_Col_12.length; i++){
+					this.box_Col_12[i].visible = false;
+				}
+			}
+			else if(this.counter === 13){
+				for(let i = 0; i < this.box_Col_13.length; i++){
+					this.box_Col_13[i].visible = false;
+				}
+			}
+			else if(this.counter === 14){
+				for(let i = 0; i < this.box_Col_14.length; i++){
+					this.box_Col_14[i].visible = false;
+				}
+			}
+			else if(this.counter === 15){
+				for(let i = 0; i < this.box_Col_15.length; i++){
+					this.box_Col_15[i].visible = false;
+				}
+
+				this.counter = 1;
+				this.xIncrement = 59;
+			}
 		}
 
 	}
@@ -1167,6 +1301,23 @@ class Level extends Phaser.Scene {
 		if ((this.timerOver === false && this.play_btn_click === true) || (this.gameOver === false && this.play_btn_click === true)) {
 			this.startTimer();
 			this.play_btn_click = null;
+			for(var i = 0; i < this.box_Col_1.length; i++){
+				this.box_Col_1[i].visible = false;
+				this.box_Col_2[i].visible = true;
+				this.box_Col_3[i].visible = true;
+				this.box_Col_4[i].visible = true;
+				this.box_Col_5[i].visible = true;
+				this.box_Col_6[i].visible = true;
+				this.box_Col_7[i].visible = true;
+				this.box_Col_8[i].visible = true;
+				this.box_Col_9[i].visible = true;
+				this.box_Col_10[i].visible = true;
+				this.box_Col_11[i].visible = true;
+				this.box_Col_12[i].visible = true;
+				this.box_Col_13[i].visible = true;
+				this.box_Col_14[i].visible = true;
+				this.box_Col_15[i].visible = true;
+			}
 		}
 		if(this.gameOver === false && this.play_btn_click === null){
 			this.showTimer();
