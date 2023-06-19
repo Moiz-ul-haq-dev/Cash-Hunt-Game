@@ -921,6 +921,69 @@ class Level extends Phaser.Scene {
 		{ key: 'Comp 1_148' },
 	];
 
+	// play button web animation
+	playButton = [
+		{ key: 'Play-(1)' },
+		{ key: 'Play-(2)' },
+		{ key: 'Play-(3)' },
+		{ key: 'Play-(4)' },
+		{ key: 'Play-(5)' },
+		{ key: 'Play-(6)' },
+		{ key: 'Play-(7)' },
+		{ key: 'Play-(8)' },
+		{ key: 'Play-(9)' },
+		{ key: 'Play-(10)' },
+		{ key: 'Play-(11)' },
+		{ key: 'Play-(12)' },
+		{ key: 'Play-(13)' },
+		{ key: 'Play-(14)' },
+		{ key: 'Play-(15)' },
+		{ key: 'Play-(16)' },
+		{ key: 'Play-(17)' },
+		{ key: 'Play-(18)' },
+		{ key: 'Play-(19)' },
+		{ key: 'Play-(20)' },
+		{ key: 'Play-(21)' },
+		{ key: 'Play-(22)' },
+		{ key: 'Play-(23)' },
+		{ key: 'Play-(24)' },
+		{ key: 'Play-(25)' },
+		{ key: 'Play-(26)' },
+		{ key: 'Play-(27)' },
+		{ key: 'Play-(28)' },
+		{ key: 'Play-(29)' },
+		{ key: 'Play-(30)' },
+		{ key: 'Play-(31)' },
+		{ key: 'Play-(32)' },
+		{ key: 'Play-(33)' },
+		{ key: 'Play-(34)' },
+		{ key: 'Play-(35)' },
+		{ key: 'Play-(36)' },
+		{ key: 'Play-(37)' },
+		{ key: 'Play-(38)' },
+		{ key: 'Play-(39)' },
+		{ key: 'Play-(40)' },
+		{ key: 'Play-(41)' },
+		{ key: 'Play-(42)' },
+		{ key: 'Play-(43)' },
+		{ key: 'Play-(44)' },
+		{ key: 'Play-(45)' },
+		{ key: 'Play-(46)' },
+		{ key: 'Play-(47)' },
+		{ key: 'Play-(48)' },
+		{ key: 'Play-(49)' },
+		{ key: 'Play-(50)' },
+		{ key: 'Play-(51)' },
+		{ key: 'Play-(52)' },
+		{ key: 'Play-(53)' },
+		{ key: 'Play-(54)' },
+		{ key: 'Play-(55)' },
+		{ key: 'Play-(56)' },
+		{ key: 'Play-(57)' },
+		{ key: 'Play-(58)' },
+		{ key: 'Play-(59)' },
+	];
+
 	numbers = [];
 	sprites = [];
 	play_btn_click = false;
@@ -1005,6 +1068,13 @@ class Level extends Phaser.Scene {
 			repeat: 0,
 		});
 
+		this.anims.create({
+			key: 'playAnimation',
+			frames: this.playButton,
+			frameRate: 30,
+			repeat: 0,
+		});
+
 		this.allSprites = this.add.group();
 
 	}
@@ -1060,6 +1130,11 @@ class Level extends Phaser.Scene {
 			this.sound.resumeAll();
 		}
 		if (image.texture.key === 'play_btn') {
+			
+			const play_btn = this.add.sprite(640, 649, 'playAnimation').play('playAnimation');
+			play_btn.scale = 0.25;
+			play_btn.play('playAnimation');
+
 			this.numbers = [];
 			this.generateRandomNumbers(1, 6, 1);
 			console.log(this.numbers[0]);
@@ -1137,6 +1212,7 @@ class Level extends Phaser.Scene {
 		}
 
 		if (image.texture.key === 'shuffle' && this.counter < 15) {
+			this.startTimer();
 			this.numbers = [];
 			this.generateRandomNumbers(1, 6, 1);
 			console.log(this.numbers[0]);

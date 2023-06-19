@@ -784,6 +784,301 @@
                 "key": "play_btn"
             },
             {
+                "url": "assets/Play-(1).png",
+                "type": "image",
+                "key": "Play-(1)"
+            },
+            {
+                "url": "assets/Play-(10).png",
+                "type": "image",
+                "key": "Play-(10)"
+            },
+            {
+                "url": "assets/Play-(11).png",
+                "type": "image",
+                "key": "Play-(11)"
+            },
+            {
+                "url": "assets/Play-(12).png",
+                "type": "image",
+                "key": "Play-(12)"
+            },
+            {
+                "url": "assets/Play-(13).png",
+                "type": "image",
+                "key": "Play-(13)"
+            },
+            {
+                "url": "assets/Play-(14).png",
+                "type": "image",
+                "key": "Play-(14)"
+            },
+            {
+                "url": "assets/Play-(15).png",
+                "type": "image",
+                "key": "Play-(15)"
+            },
+            {
+                "url": "assets/Play-(16).png",
+                "type": "image",
+                "key": "Play-(16)"
+            },
+            {
+                "url": "assets/Play-(17).png",
+                "type": "image",
+                "key": "Play-(17)"
+            },
+            {
+                "url": "assets/Play-(18).png",
+                "type": "image",
+                "key": "Play-(18)"
+            },
+            {
+                "url": "assets/Play-(19).png",
+                "type": "image",
+                "key": "Play-(19)"
+            },
+            {
+                "url": "assets/Play-(2).png",
+                "type": "image",
+                "key": "Play-(2)"
+            },
+            {
+                "url": "assets/Play-(20).png",
+                "type": "image",
+                "key": "Play-(20)"
+            },
+            {
+                "url": "assets/Play-(21).png",
+                "type": "image",
+                "key": "Play-(21)"
+            },
+            {
+                "url": "assets/Play-(22).png",
+                "type": "image",
+                "key": "Play-(22)"
+            },
+            {
+                "url": "assets/Play-(23).png",
+                "type": "image",
+                "key": "Play-(23)"
+            },
+            {
+                "url": "assets/Play-(24).png",
+                "type": "image",
+                "key": "Play-(24)"
+            },
+            {
+                "url": "assets/Play-(25).png",
+                "type": "image",
+                "key": "Play-(25)"
+            },
+            {
+                "url": "assets/Play-(26).png",
+                "type": "image",
+                "key": "Play-(26)"
+            },
+            {
+                "url": "assets/Play-(27).png",
+                "type": "image",
+                "key": "Play-(27)"
+            },
+            {
+                "url": "assets/Play-(28).png",
+                "type": "image",
+                "key": "Play-(28)"
+            },
+            {
+                "url": "assets/Play-(29).png",
+                "type": "image",
+                "key": "Play-(29)"
+            },
+            {
+                "url": "assets/Play-(3).png",
+                "type": "image",
+                "key": "Play-(3)"
+            },
+            {
+                "url": "assets/Play-(30).png",
+                "type": "image",
+                "key": "Play-(30)"
+            },
+            {
+                "url": "assets/Play-(31).png",
+                "type": "image",
+                "key": "Play-(31)"
+            },
+            {
+                "url": "assets/Play-(32).png",
+                "type": "image",
+                "key": "Play-(32)"
+            },
+            {
+                "url": "assets/Play-(33).png",
+                "type": "image",
+                "key": "Play-(33)"
+            },
+            {
+                "url": "assets/Play-(34).png",
+                "type": "image",
+                "key": "Play-(34)"
+            },
+            {
+                "url": "assets/Play-(35).png",
+                "type": "image",
+                "key": "Play-(35)"
+            },
+            {
+                "url": "assets/Play-(36).png",
+                "type": "image",
+                "key": "Play-(36)"
+            },
+            {
+                "url": "assets/Play-(37).png",
+                "type": "image",
+                "key": "Play-(37)"
+            },
+            {
+                "url": "assets/Play-(38).png",
+                "type": "image",
+                "key": "Play-(38)"
+            },
+            {
+                "url": "assets/Play-(39).png",
+                "type": "image",
+                "key": "Play-(39)"
+            },
+            {
+                "url": "assets/Play-(4).png",
+                "type": "image",
+                "key": "Play-(4)"
+            },
+            {
+                "url": "assets/Play-(40).png",
+                "type": "image",
+                "key": "Play-(40)"
+            },
+            {
+                "url": "assets/Play-(41).png",
+                "type": "image",
+                "key": "Play-(41)"
+            },
+            {
+                "url": "assets/Play-(42).png",
+                "type": "image",
+                "key": "Play-(42)"
+            },
+            {
+                "url": "assets/Play-(43).png",
+                "type": "image",
+                "key": "Play-(43)"
+            },
+            {
+                "url": "assets/Play-(44).png",
+                "type": "image",
+                "key": "Play-(44)"
+            },
+            {
+                "url": "assets/Play-(45).png",
+                "type": "image",
+                "key": "Play-(45)"
+            },
+            {
+                "url": "assets/Play-(46).png",
+                "type": "image",
+                "key": "Play-(46)"
+            },
+            {
+                "url": "assets/Play-(47).png",
+                "type": "image",
+                "key": "Play-(47)"
+            },
+            {
+                "url": "assets/Play-(48).png",
+                "type": "image",
+                "key": "Play-(48)"
+            },
+            {
+                "url": "assets/Play-(49).png",
+                "type": "image",
+                "key": "Play-(49)"
+            },
+            {
+                "url": "assets/Play-(5).png",
+                "type": "image",
+                "key": "Play-(5)"
+            },
+            {
+                "url": "assets/Play-(50).png",
+                "type": "image",
+                "key": "Play-(50)"
+            },
+            {
+                "url": "assets/Play-(51).png",
+                "type": "image",
+                "key": "Play-(51)"
+            },
+            {
+                "url": "assets/Play-(52).png",
+                "type": "image",
+                "key": "Play-(52)"
+            },
+            {
+                "url": "assets/Play-(53).png",
+                "type": "image",
+                "key": "Play-(53)"
+            },
+            {
+                "url": "assets/Play-(54).png",
+                "type": "image",
+                "key": "Play-(54)"
+            },
+            {
+                "url": "assets/Play-(55).png",
+                "type": "image",
+                "key": "Play-(55)"
+            },
+            {
+                "url": "assets/Play-(56).png",
+                "type": "image",
+                "key": "Play-(56)"
+            },
+            {
+                "url": "assets/Play-(57).png",
+                "type": "image",
+                "key": "Play-(57)"
+            },
+            {
+                "url": "assets/Play-(58).png",
+                "type": "image",
+                "key": "Play-(58)"
+            },
+            {
+                "url": "assets/Play-(59).png",
+                "type": "image",
+                "key": "Play-(59)"
+            },
+            {
+                "url": "assets/Play-(6).png",
+                "type": "image",
+                "key": "Play-(6)"
+            },
+            {
+                "url": "assets/Play-(7).png",
+                "type": "image",
+                "key": "Play-(7)"
+            },
+            {
+                "url": "assets/Play-(8).png",
+                "type": "image",
+                "key": "Play-(8)"
+            },
+            {
+                "url": "assets/Play-(9).png",
+                "type": "image",
+                "key": "Play-(9)"
+            },
+            {
                 "url": "assets/red-boxes-(1).png",
                 "type": "image",
                 "key": "red-boxes-(1)"
