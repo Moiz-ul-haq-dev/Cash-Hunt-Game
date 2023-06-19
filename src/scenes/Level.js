@@ -864,10 +864,12 @@ class Level extends Phaser.Scene {
 	numbers = [];
 	sprites = [];
 	play_btn_click = false;
+	gameOver = false;
+	maxTime = 15;
 	isPointerDown = false;
 	boxNumber;
 	xIncrement = 0;
-	counter = 0; 
+	counter = 0;
 
 
 
@@ -1074,7 +1076,7 @@ class Level extends Phaser.Scene {
 			console.log(this.sprites);
 		}
 
-		if(image.texture.key === 'shuffle' && this.counter < 15){
+		if (image.texture.key === 'shuffle' && this.counter < 15) {
 			this.numbers = [];
 			this.generateRandomNumbers(1, 6, 1);
 			console.log(this.numbers[0]);
@@ -1141,22 +1143,37 @@ class Level extends Phaser.Scene {
 	}
 
 	showTimer() {
-		let maxTime = 15;
-		let time = Math.floor(this.timer.getElapsedSeconds());
-		let timeLeft = maxTime - time;
+		let time = Math.floor(this.timer.getElapsed() / 1000);
+		let timeLeft = this.maxTime - time;
 		if (timeLeft <= 0) {
 			timeLeft = 0;
 			this.timerOver = true;
 		}
+		this.timerText.setText(timeLeft);
+	}
 
-		let sec = time % 60;
-
-		this.timerText.setText(sec);
+	startTimer() {
+		if (this.timer) {
+			this.timer.destroy();
+		}
+		this.timer = this.time.delayedCall(this.maxTime * 1000, () => {
+			this.timerOver = true;
+		}, [], this);
+		this.timer.paused = false;
+		this.timerOver = false;
 	}
 
 	update() {
-		if (this.timerOver === false && this.play_btn_click === true) {
-			this.showTimer();			
+		if ((this.timerOver === false && this.play_btn_click === true) || (this.gameOver === false && this.play_btn_click === true)) {
+			this.startTimer();
+			this.play_btn_click = null;
+		}
+		if(this.gameOver === false && this.play_btn_click === null){
+			this.showTimer();
+		}
+		if (this.gameOver === true) {
+			this.gameOver = false;
+			this.timer.paused = true;
 		}
 		if (this.timerOver === true) {
 			this.scene.start('YouWinScene');
@@ -1170,11 +1187,12 @@ class Level extends Phaser.Scene {
 					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
 						image.visible = false;
 					}
-					if(image.texture.key === 'play_btn'){
+					if (image.texture.key === 'play_btn') {
 						image.visible = true;
 					}
 				});
 				this.isPointerDown = false;
+				this.gameOver = true;
 			}
 			if (this.numbers[0] === 1 && this.boxNumber !== 1) {
 				console.log(this.sprites[0].scale);
@@ -1187,11 +1205,12 @@ class Level extends Phaser.Scene {
 					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
 						image.visible = false;
 					}
-					if(image.texture.key === 'play_btn'){
+					if (image.texture.key === 'play_btn') {
 						image.visible = true;
 					}
 				});
 				this.isPointerDown = false;
+				this.gameOver = true;
 			}
 			if (this.numbers[0] === 2 && this.boxNumber !== 2) {
 				console.log(this.sprites[1].scale);
@@ -1204,11 +1223,12 @@ class Level extends Phaser.Scene {
 					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
 						image.visible = false;
 					}
-					if(image.texture.key === 'play_btn'){
+					if (image.texture.key === 'play_btn') {
 						image.visible = true;
 					}
 				});
 				this.isPointerDown = false;
+				this.gameOver = true;
 			}
 			if (this.numbers[0] === 3 && this.boxNumber !== 3) {
 				console.log(this.sprites[2].scale);
@@ -1221,11 +1241,12 @@ class Level extends Phaser.Scene {
 					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
 						image.visible = false;
 					}
-					if(image.texture.key === 'play_btn'){
+					if (image.texture.key === 'play_btn') {
 						image.visible = true;
 					}
 				});
 				this.isPointerDown = false;
+				this.gameOver = true;
 			}
 			if (this.numbers[0] === 4 && this.boxNumber !== 4) {
 				console.log(this.sprites[3].scale);
@@ -1238,11 +1259,12 @@ class Level extends Phaser.Scene {
 					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
 						image.visible = false;
 					}
-					if(image.texture.key === 'play_btn'){
+					if (image.texture.key === 'play_btn') {
 						image.visible = true;
 					}
 				});
 				this.isPointerDown = false;
+				this.gameOver = true;
 			}
 			if (this.numbers[0] === 5 && this.boxNumber !== 5) {
 				console.log(this.sprites[4].scale);
@@ -1255,19 +1277,20 @@ class Level extends Phaser.Scene {
 					if (image.texture.key === 'shuffle' || image.texture.key === 'cashout') {
 						image.visible = false;
 					}
-					if(image.texture.key === 'play_btn'){
+					if (image.texture.key === 'play_btn') {
 						image.visible = true;
 					}
 				});
 				this.isPointerDown = false;
+				this.gameOver = true;
 			}
 			if (this.numbers[0] === 6 && this.boxNumber !== 6) {
 				console.log(this.sprites[5].scale);
 				this.sprites[5].play('boxRed');
 				this.isPointerDown = false;
 			}
-			for(let i = 0; i < this.sprites.length; i++){
-				if(i !== this.numbers[0] - 1){
+			for (let i = 0; i < this.sprites.length; i++) {
+				if (i !== this.numbers[0] - 1) {
 					this.sprites[i].play('boxGreen');
 				}
 			}
