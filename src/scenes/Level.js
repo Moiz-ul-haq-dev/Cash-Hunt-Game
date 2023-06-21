@@ -1370,6 +1370,7 @@ class Level extends Phaser.Scene {
 
 				this.counter = 1;
 				this.xIncrement = 59;
+				this.gameOver = true;
 			}
 		}
 		if (image.texture.key === 'amount') {

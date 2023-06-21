@@ -2,6 +2,11 @@
     "section1": {
         "files": [
             {
+                "url": "assets/15x6 text.PNG",
+                "type": "image",
+                "key": "15x6 text"
+            },
+            {
                 "url": "assets/3x2 text.PNG",
                 "type": "image",
                 "key": "3x2 text"
@@ -32,6 +37,11 @@
                 "url": "assets/blur_bg.png",
                 "type": "image",
                 "key": "blur_bg"
+            },
+            {
+                "url": "assets/ButtonFrame.png",
+                "type": "image",
+                "key": "ButtonFrame"
             },
             {
                 "url": "assets/Cash_Hunt_Logo-removebg-preview.png",
