@@ -632,8 +632,26 @@ class Level extends Phaser.Scene {
 		shuffle.scaleY = 0.5;
 		shuffle.visible = false;
 
+		// price_Menu
+		const price_Menu = this.add.image(770, 558, "Price_Menu");
+		price_Menu.scaleX = 0.5;
+		price_Menu.scaleY = 0.5;
+		price_Menu.visible = false;
+
+		// frames_Menu
+		const frames_Menu = this.add.image(514, 558, "Frames_Menu");
+		frames_Menu.scaleX = 0.5;
+		frames_Menu.scaleY = 0.5;
+		frames_Menu.visible = false;
+
+		// 3x2_text
+		const frame3x2 = this.add.image(514, 608, "3x2 text");
+		frame3x2.scaleX = 0.8;
+		frame3x2.scaleY = 0.8;
+		frame3x2.visible = false;
+
 		// lists
-		const interactiveImages = [exit_button, setings_button, info_button, sound_button, timer_button, sound_close_btn, play_btn, amount, slot_setting, cashout, shuffle];
+		const interactiveImages = [exit_button, setings_button, info_button, sound_button, timer_button, sound_close_btn, play_btn, cashout, shuffle, slot_setting, amount, price_Menu, frames_Menu, frame3x2];
 		const settings_options = [info_button, timer_button, sound_button, sound_close_btn];
 		const sound_options = [sound_close_btn];
 		const box_Col_1 = [box_1, box_6, box_5, box_4, box_3, box_2];
@@ -987,6 +1005,8 @@ class Level extends Phaser.Scene {
 	numbers = [];
 	sprites = [];
 	play_btn_click = false;
+	frameMenu = false;
+	priceMenu = false;
 	play_btn;
 	gameOver = false;
 	maxTime = 15;
@@ -1131,7 +1151,7 @@ class Level extends Phaser.Scene {
 			this.sound.resumeAll();
 		}
 		if (image.texture.key === 'play_btn') {
-			
+
 			this.play_btn = this.add.sprite(640, 649, 'playAnimation').play('playAnimation');
 			this.play_btn.scale = 0.25;
 			this.play_btn.play('playAnimation').on('animationcomplete', () => {
@@ -1278,79 +1298,120 @@ class Level extends Phaser.Scene {
 			this.xIncrement += 59;
 			this.counter++;
 
-			if(this.counter === 2){
-				for(let i = 0; i < this.box_Col_2.length; i++){
+			if (this.counter === 2) {
+				for (let i = 0; i < this.box_Col_2.length; i++) {
 					this.box_Col_2[i].visible = false;
 				}
 			}
-			else if(this.counter === 3){
-				for(let i = 0; i < this.box_Col_3.length; i++){
+			else if (this.counter === 3) {
+				for (let i = 0; i < this.box_Col_3.length; i++) {
 					this.box_Col_3[i].visible = false;
 				}
 			}
-			else if(this.counter === 4){
-				for(let i = 0; i < this.box_Col_4.length; i++){
+			else if (this.counter === 4) {
+				for (let i = 0; i < this.box_Col_4.length; i++) {
 					this.box_Col_4[i].visible = false;
 				}
 			}
-			else if(this.counter === 5){
-				for(let i = 0; i < this.box_Col_5.length; i++){
+			else if (this.counter === 5) {
+				for (let i = 0; i < this.box_Col_5.length; i++) {
 					this.box_Col_5[i].visible = false;
 				}
 			}
-			else if(this.counter === 6){
-				for(let i = 0; i < this.box_Col_6.length; i++){
+			else if (this.counter === 6) {
+				for (let i = 0; i < this.box_Col_6.length; i++) {
 					this.box_Col_6[i].visible = false;
 				}
 			}
-			else if(this.counter === 7){
-				for(let i = 0; i < this.box_Col_7.length; i++){
+			else if (this.counter === 7) {
+				for (let i = 0; i < this.box_Col_7.length; i++) {
 					this.box_Col_7[i].visible = false;
 				}
 			}
-			else if(this.counter === 8){
-				for(let i = 0; i < this.box_Col_8.length; i++){
+			else if (this.counter === 8) {
+				for (let i = 0; i < this.box_Col_8.length; i++) {
 					this.box_Col_8[i].visible = false;
 				}
 			}
-			else if(this.counter === 9){
-				for(let i = 0; i < this.box_Col_9.length; i++){
+			else if (this.counter === 9) {
+				for (let i = 0; i < this.box_Col_9.length; i++) {
 					this.box_Col_9[i].visible = false;
 				}
 			}
-			else if(this.counter === 10){
-				for(let i = 0; i < this.box_Col_10.length; i++){
+			else if (this.counter === 10) {
+				for (let i = 0; i < this.box_Col_10.length; i++) {
 					this.box_Col_10[i].visible = false;
 				}
 			}
-			else if(this.counter === 11){
-				for(let i = 0; i < this.box_Col_11.length; i++){
+			else if (this.counter === 11) {
+				for (let i = 0; i < this.box_Col_11.length; i++) {
 					this.box_Col_11[i].visible = false;
 				}
 			}
-			else if(this.counter === 12){
-				for(let i = 0; i < this.box_Col_12.length; i++){
+			else if (this.counter === 12) {
+				for (let i = 0; i < this.box_Col_12.length; i++) {
 					this.box_Col_12[i].visible = false;
 				}
 			}
-			else if(this.counter === 13){
-				for(let i = 0; i < this.box_Col_13.length; i++){
+			else if (this.counter === 13) {
+				for (let i = 0; i < this.box_Col_13.length; i++) {
 					this.box_Col_13[i].visible = false;
 				}
 			}
-			else if(this.counter === 14){
-				for(let i = 0; i < this.box_Col_14.length; i++){
+			else if (this.counter === 14) {
+				for (let i = 0; i < this.box_Col_14.length; i++) {
 					this.box_Col_14[i].visible = false;
 				}
 			}
-			else if(this.counter === 15){
-				for(let i = 0; i < this.box_Col_15.length; i++){
+			else if (this.counter === 15) {
+				for (let i = 0; i < this.box_Col_15.length; i++) {
 					this.box_Col_15[i].visible = false;
 				}
 
 				this.counter = 1;
 				this.xIncrement = 59;
 			}
+		}
+		if (image.texture.key === 'amount') {
+			if (this.priceMenu === false) {
+				this.interactiveImages.forEach((image) => {
+					if (image.texture.key === 'Price_Menu') {
+						image.visible = true;
+					}
+				});
+				this.priceMenu = true;
+			}
+			else {
+				this.interactiveImages.forEach((image) => {
+					if (image.texture.key === 'Price_Menu') {
+						image.visible = false;
+					}
+				});
+				this.priceMenu = false;
+			}
+		}
+		if (image.texture.key === 'slot_setting') {
+			if (this.frameMenu === false) {
+				this.interactiveImages.forEach((image) => {
+					if (image.texture.key === 'Frames_Menu' || image.texture.key === '3x2 text') {
+						image.visible = true;
+					}
+				});
+				this.frameMenu = true;
+			}
+			else {
+				this.interactiveImages.forEach((image) => {
+					if (image.texture.key === 'Frames_Menu' || image.texture.key === '3x2 text') {
+						image.visible = false;
+					}
+				});
+				this.frameMenu = false;
+			}
+		}
+
+		if(image.texture.key === '3x2 text'){
+			this.sound.stopAll();
+			this.scene.start("FrameScene");
 		}
 
 	}
@@ -1377,10 +1438,11 @@ class Level extends Phaser.Scene {
 	}
 
 	update() {
+
 		if ((this.timerOver === false && this.play_btn_click === true) || (this.gameOver === false && this.play_btn_click === true)) {
 			this.startTimer();
 			this.play_btn_click = null;
-			for(var i = 0; i < this.box_Col_1.length; i++){
+			for (var i = 0; i < this.box_Col_1.length; i++) {
 				this.box_Col_1[i].visible = false;
 				this.box_Col_2[i].visible = true;
 				this.box_Col_3[i].visible = true;
@@ -1398,7 +1460,7 @@ class Level extends Phaser.Scene {
 				this.box_Col_15[i].visible = true;
 			}
 		}
-		if(this.gameOver === false && this.play_btn_click === null){
+		if (this.gameOver === false && this.play_btn_click === null) {
 			this.showTimer();
 		}
 		if (this.gameOver === true) {

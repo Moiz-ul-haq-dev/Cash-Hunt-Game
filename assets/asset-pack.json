@@ -2,6 +2,11 @@
     "section1": {
         "files": [
             {
+                "url": "assets/3x2 text.PNG",
+                "type": "image",
+                "key": "3x2 text"
+            },
+            {
                 "url": "assets/6x15.png",
                 "type": "image",
                 "key": "6x15"
@@ -769,9 +774,19 @@
                 "key": "exit button"
             },
             {
+                "url": "assets/Frames_Menu.png",
+                "type": "image",
+                "key": "Frames_Menu"
+            },
+            {
                 "url": "assets/info button.png",
                 "type": "image",
                 "key": "info button"
+            },
+            {
+                "url": "assets/MachineFrame.png",
+                "type": "image",
+                "key": "MachineFrame"
             },
             {
                 "url": "assets/Modified 6x15.png",
@@ -1077,6 +1092,11 @@
                 "url": "assets/Play-(9).png",
                 "type": "image",
                 "key": "Play-(9)"
+            },
+            {
+                "url": "assets/Price_Menu.png",
+                "type": "image",
+                "key": "Price_Menu"
             },
             {
                 "url": "assets/red-boxes-(1).png",

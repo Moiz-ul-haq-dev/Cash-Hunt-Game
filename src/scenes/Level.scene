@@ -1456,6 +1456,48 @@
             "scaleX": 0.5,
             "scaleY": 0.5,
             "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "90502e35-bcaa-473a-b069-4f57ed868c25",
+            "label": "price_Menu",
+            "components": [],
+            "texture": {
+                "key": "Price_Menu"
+            },
+            "x": 770,
+            "y": 558,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "2d4d82d1-f190-4740-9a7c-f5564b1537d8",
+            "label": "frames_Menu",
+            "components": [],
+            "texture": {
+                "key": "Frames_Menu"
+            },
+            "x": 514,
+            "y": 558,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "fadd1278-ce5b-4894-b1c9-2b390a5d105a",
+            "label": "3x2_text",
+            "components": [],
+            "texture": {
+                "key": "3x2 text"
+            },
+            "x": 514,
+            "y": 608,
+            "scaleX": 0.8,
+            "scaleY": 0.8,
+            "visible": false
         }
     ],
     "plainObjects": [],
@@ -1477,10 +1519,13 @@
                 "474697ec-e000-4956-a0d6-f6445b0acc1e",
                 "d7382819-56f0-4b16-b7a1-9f14c2922290",
                 "797969e1-62d3-4cf7-b234-5210ab213ad0",
-                "ebbd5f92-6c8b-4352-bf40-a0d251790323",
-                "e71b2545-0943-443d-8846-a98d074e1a27",
                 "742eb807-6128-4042-a486-c501551caec1",
-                "25abbc6b-f617-4b15-ad51-561e4d7076aa"
+                "25abbc6b-f617-4b15-ad51-561e4d7076aa",
+                "e71b2545-0943-443d-8846-a98d074e1a27",
+                "ebbd5f92-6c8b-4352-bf40-a0d251790323",
+                "90502e35-bcaa-473a-b069-4f57ed868c25",
+                "2d4d82d1-f190-4740-9a7c-f5564b1537d8",
+                "fadd1278-ce5b-4894-b1c9-2b390a5d105a"
             ]
         },
         {

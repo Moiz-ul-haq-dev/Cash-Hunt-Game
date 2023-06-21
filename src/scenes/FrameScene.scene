@@ -1,0 +1,248 @@
+{
+    "id": "7f0e1a71-0470-4b56-9038-71f3ebec062b",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "FrameScene",
+        "borderWidth": 1280,
+        "borderHeight": 680
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "33f061f5-e034-4669-a019-9d049e4d19b1",
+            "label": "background",
+            "components": [],
+            "texture": {
+                "key": "background"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.7268502635277192,
+            "scaleY": 0.739203605768162
+        },
+        {
+            "type": "Image",
+            "id": "815c749c-0050-476c-b0f5-08671ae093dd",
+            "label": "exit_button",
+            "components": [],
+            "texture": {
+                "key": "exit button"
+            },
+            "x": 26.099999999999998,
+            "y": 26.099999999999998,
+            "scaleX": 0.6,
+            "scaleY": 0.6
+        },
+        {
+            "type": "Image",
+            "id": "3882524d-168c-4e56-8eb5-4cf26d5d3d03",
+            "label": "setings_button",
+            "components": [],
+            "texture": {
+                "key": "setings button"
+            },
+            "x": 1253.8999999999999,
+            "y": 26.099999999999998,
+            "scaleX": 0.6,
+            "scaleY": 0.6
+        },
+        {
+            "type": "Image",
+            "id": "8846cc66-4e73-45fa-8f49-04c196aab1f8",
+            "label": "cash_Hunt_Logo_removebg_preview",
+            "components": [],
+            "texture": {
+                "key": "Cash_Hunt_Logo-removebg-preview"
+            },
+            "x": 640,
+            "y": 75,
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "type": "Image",
+            "id": "e9621aeb-9ddc-4d4f-b6ce-a74df8655336",
+            "label": "machineFrame",
+            "components": [],
+            "texture": {
+                "key": "MachineFrame"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.6712334223289863,
+            "scaleY": 0.6418304600479019
+        },
+        {
+            "type": "Image",
+            "id": "6832d5c3-0032-469b-a2be-c4a12bf07b96",
+            "label": "amount",
+            "components": [],
+            "texture": {
+                "key": "amount"
+            },
+            "x": 786,
+            "y": 650,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "54442ec6-1a4c-4334-a0ef-de3d0fbd732d",
+            "label": "play_btn",
+            "components": [],
+            "texture": {
+                "key": "play_btn"
+            },
+            "x": 630,
+            "y": 649,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "3b5d8132-bd46-4e28-938a-1f3ae3912cf3",
+            "label": "slot_setting",
+            "components": [],
+            "texture": {
+                "key": "slot_setting"
+            },
+            "x": 481,
+            "y": 651,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "25edb11d-cf74-4231-bc74-d8628b2c9eb2",
+            "label": "frames_Menu",
+            "components": [],
+            "texture": {
+                "key": "Frames_Menu"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "6a25ef35-6335-4085-be18-60a5fe489563",
+            "label": "price_Menu",
+            "components": [],
+            "texture": {
+                "key": "Price_Menu"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "0edc60f6-8082-4793-94c6-e5918f90d4b7",
+            "label": "shuffle",
+            "components": [],
+            "texture": {
+                "key": "shuffle"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "bd8670fd-2aab-4639-86d1-36ebe760127a",
+            "label": "cashout",
+            "components": [],
+            "texture": {
+                "key": "cashout"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "face92af-d0f2-45cb-ad1d-8bd521efb092",
+            "label": "timer_button",
+            "components": [],
+            "texture": {
+                "key": "timer button"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.6,
+            "scaleY": 0.6,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "880eae57-aa28-4d8a-ac6c-62ed1b6a140d",
+            "label": "sound_close_btn",
+            "components": [],
+            "texture": {
+                "key": "sound close btn"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.6,
+            "scaleY": 0.6,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "3f165cb4-0345-4c94-90d1-fd85e9e02d99",
+            "label": "sound_button",
+            "components": [],
+            "texture": {
+                "key": "sound button"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.6,
+            "scaleY": 0.6,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "487b2449-abce-4a9c-a75d-f8b4e3e1d673",
+            "label": "info_button",
+            "components": [],
+            "texture": {
+                "key": "info button"
+            },
+            "x": 640,
+            "y": 340,
+            "scaleX": 0.6,
+            "scaleY": 0.6,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "d853e402-d4a1-4450-bb12-a27f39964596",
+            "label": "interactiveImages",
+            "objectIds": [
+                "54442ec6-1a4c-4334-a0ef-de3d0fbd732d",
+                "6832d5c3-0032-469b-a2be-c4a12bf07b96",
+                "0edc60f6-8082-4793-94c6-e5918f90d4b7",
+                "bd8670fd-2aab-4639-86d1-36ebe760127a"
+            ]
+        }
+    ]
+}
